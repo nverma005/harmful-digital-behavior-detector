@@ -18,11 +18,15 @@ Reddit Mental Health data, Python, and Power BI.
 | File | Description | Notebooks
 |------|-------------|
 
-| 01_data_exploration.py | Dataset profiling and EDA |
-| 02_data_cleaning.py | Text cleaning and feature engineering |
-| 3.1_echo_chamber_analysis.py | Shannon Entropy diversity scoring |
-| 3.2_doomscrolling_analysis.py | Weighted doom score per post and user |
-| 04_final_output.py | Combined risk engine and Power BI exports |
+01_data_exploration.py | Dataset profiling and EDA |
+
+02_data_cleaning.py | Text cleaning and feature engineering |
+
+3.1_echo_chamber_analysis.py | Shannon Entropy diversity scoring |
+
+3.2_doomscrolling_analysis.py | Weighted doom score per post and user |
+
+04_final_output.py | Combined risk engine and Power BI exports |
 
 ## Key Results
 | Metric | Value |
