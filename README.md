@@ -17,6 +17,7 @@ Reddit Mental Health data, Python, and Power BI.
 ## Project Files
 | File | Description | Notebooks
 |------|-------------|
+
 | 01_data_exploration.py | Dataset profiling and EDA |
 | 02_data_cleaning.py | Text cleaning and feature engineering |
 | 3.1_echo_chamber_analysis.py | Shannon Entropy diversity scoring |
