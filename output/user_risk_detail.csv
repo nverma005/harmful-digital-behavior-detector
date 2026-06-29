@@ -1,0 +1,101 @@
+user_id,overall_risk,combined_risk_score,echo_chamber_risk,diversity_pct,dominant_category_name,dominant_pct,doom_scroll_risk,avg_doom_score,high_doom_pct,est_read_minutes,avg_negativity,flag_pure_bubble,flag_heavy_doom,flag_double_risk,flag_long_session,flag_high_negativity,recommendation,risk_rank
+user_026,HIGH,89.2,HIGH,27.0,Depression,90.0,HIGH,24.87,76.7,21.2,2.96,1,1,1,0,1,Critical: User is in a content bubble AND consuming high-distress content. Immediate intervention recommended.,1
+user_006,HIGH,85.14,HIGH,24.2,Depression,90.0,HIGH,22.98,66.7,32.8,1.57,1,1,1,0,0,Critical: User is in a content bubble AND consuming high-distress content. Immediate intervention recommended.,2
+user_016,HIGH,84.73,HIGH,24.2,Depression,90.0,HIGH,22.83,70.0,29.5,1.85,1,1,1,0,0,Critical: User is in a content bubble AND consuming high-distress content. Immediate intervention recommended.,3
+user_021,HIGH,83.53,HIGH,27.0,Depression,90.0,HIGH,22.8,50.0,24.8,1.85,1,1,1,0,0,Critical: User is in a content bubble AND consuming high-distress content. Immediate intervention recommended.,4
+user_001,HIGH,83.14,HIGH,24.2,Depression,90.0,HIGH,22.25,63.3,32.3,1.54,1,1,1,0,0,Critical: User is in a content bubble AND consuming high-distress content. Immediate intervention recommended.,5
+user_011,HIGH,82.41,HIGH,27.0,Depression,90.0,HIGH,22.39,53.3,23.2,1.5,1,1,1,0,0,Critical: User is in a content bubble AND consuming high-distress content. Immediate intervention recommended.,6
+user_007,HIGH,76.47,HIGH,24.2,Bipolar,90.0,LOW,19.81,6.7,23.7,1.69,1,0,0,0,0,Echo chamber detected: Diversify content sources. User reads mostly Bipolar content.,7
+user_002,HIGH,73.64,HIGH,24.2,Bipolar,90.0,LOW,18.78,16.7,14.8,1.29,1,0,0,0,0,Echo chamber detected: Diversify content sources. User reads mostly Bipolar content.,8
+user_022,HIGH,73.64,HIGH,24.2,Bipolar,90.0,LOW,18.78,6.7,24.0,1.4,1,0,0,0,0,Echo chamber detected: Diversify content sources. User reads mostly Bipolar content.,9
+user_017,HIGH,71.43,HIGH,24.2,Bipolar,90.0,LOW,17.97,10.0,21.5,0.69,1,0,0,0,0,Echo chamber detected: Diversify content sources. User reads mostly Bipolar content.,10
+user_027,HIGH,69.05,HIGH,20.2,Bipolar,90.0,LOW,16.52,3.3,23.0,0.74,1,0,0,0,0,Echo chamber detected: Diversify content sources. User reads mostly Bipolar content.,11
+user_012,HIGH,68.42,HIGH,27.0,Bipolar,90.0,LOW,17.28,0.0,25.2,0.75,1,0,0,0,0,Echo chamber detected: Diversify content sources. User reads mostly Bipolar content.,12
+user_013,HIGH,68.34,HIGH,20.2,Social Anxiety,90.0,LOW,16.26,3.3,48.7,1.21,1,0,0,0,0,Echo chamber detected: Diversify content sources. User reads mostly Social Anxiety content.,13
+user_023,HIGH,65.4,HIGH,24.2,Social Anxiety,90.0,LOW,15.77,3.3,54.8,0.96,1,0,0,0,0,Echo chamber detected: Diversify content sources. User reads mostly Social Anxiety content.,14
+user_003,HIGH,62.85,HIGH,24.2,Social Anxiety,90.0,LOW,14.84,6.7,22.1,0.86,1,0,0,0,0,Echo chamber detected: Diversify content sources. User reads mostly Social Anxiety content.,15
+user_018,HIGH,61.08,HIGH,24.2,Social Anxiety,90.0,LOW,14.19,6.7,20.2,1.14,1,0,0,0,0,Echo chamber detected: Diversify content sources. User reads mostly Social Anxiety content.,16
+user_008,HIGH,60.31,HIGH,24.2,Social Anxiety,90.0,LOW,13.91,0.0,22.4,1.01,1,0,0,0,0,Echo chamber detected: Diversify content sources. User reads mostly Social Anxiety content.,17
+user_028,HIGH,60.01,HIGH,24.2,Social Anxiety,90.0,LOW,13.8,3.3,27.3,0.77,1,0,0,0,0,Echo chamber detected: Diversify content sources. User reads mostly Social Anxiety content.,18
+user_024,HIGH,58.83,HIGH,24.2,General Anxiety,90.0,LOW,13.37,0.0,21.1,2.1,1,0,0,0,1,Echo chamber detected: Diversify content sources. User reads mostly General Anxiety content.,19
+user_009,HIGH,57.63,HIGH,27.0,General Anxiety,90.0,LOW,13.34,3.3,23.0,2.5,1,0,0,0,1,Echo chamber detected: Diversify content sources. User reads mostly General Anxiety content.,20
+user_041,MEDIUM,57.53,MEDIUM,73.8,Depression,60.0,HIGH,20.14,43.3,22.3,1.68,0,1,0,0,0,Doom scroll risk: User consumes high-negativity content frequently. Consider content filters.,21
+user_019,MEDIUM,56.47,HIGH,24.2,General Anxiety,90.0,LOW,12.51,3.3,23.3,1.8,1,0,0,0,0,Echo chamber detected: Diversify content sources. User reads mostly General Anxiety content.,22
+user_014,MEDIUM,56.18,HIGH,27.0,General Anxiety,90.0,LOW,12.81,0.0,31.4,1.95,1,0,0,0,0,Echo chamber detected: Diversify content sources. User reads mostly General Anxiety content.,23
+user_036,MEDIUM,55.49,LOW,75.6,Depression,60.0,HIGH,19.66,43.3,22.6,1.7,0,1,0,0,0,Doom scroll risk: User consumes high-negativity content frequently. Consider content filters.,24
+user_004,MEDIUM,54.89,HIGH,27.0,General Anxiety,90.0,LOW,12.34,0.0,27.3,1.85,1,0,0,0,0,Echo chamber detected: Diversify content sources. User reads mostly General Anxiety content.,25
+user_046,MEDIUM,54.63,MEDIUM,73.3,Depression,60.0,HIGH,19.01,50.0,32.4,1.59,0,1,0,0,0,Doom scroll risk: User consumes high-negativity content frequently. Consider content filters.,26
+user_029,MEDIUM,53.94,HIGH,20.2,General Anxiety,90.0,LOW,11.0,0.0,36.4,1.43,1,0,0,0,0,Echo chamber detected: Diversify content sources. User reads mostly General Anxiety content.,27
+user_031,MEDIUM,52.99,MEDIUM,73.3,Depression,60.0,HIGH,18.41,43.3,28.8,1.32,0,1,0,0,0,Doom scroll risk: User consumes high-negativity content frequently. Consider content filters.,28
+user_032,MEDIUM,49.52,LOW,75.6,Bipolar,60.0,LOW,17.48,10.0,20.3,1.57,0,0,0,0,0,Moderate risk: Monitor browsing patterns. Mild content bias detected.,29
+user_037,MEDIUM,49.14,LOW,75.6,Bipolar,60.0,LOW,17.34,13.3,29.3,1.31,0,0,0,0,0,Moderate risk: Monitor browsing patterns. Mild content bias detected.,30
+user_047,MEDIUM,48.78,LOW,75.6,Bipolar,60.0,LOW,17.21,16.7,15.4,1.59,0,0,0,0,0,Moderate risk: Monitor browsing patterns. Mild content bias detected.,31
+user_042,MEDIUM,48.72,MEDIUM,67.0,Bipolar,60.0,LOW,15.93,6.7,27.8,1.22,0,0,0,0,0,Moderate risk: Monitor browsing patterns. Mild content bias detected.,32
+user_033,MEDIUM,45.34,MEDIUM,71.6,Social Anxiety,60.0,LOW,15.37,6.7,17.1,1.57,0,0,0,0,0,Moderate risk: Monitor browsing patterns. Mild content bias detected.,33
+user_064,MEDIUM,44.87,LOW,90.6,Depression,43.3,HIGH,17.97,36.7,20.1,1.93,0,0,0,0,0,Moderate risk: Monitor browsing patterns. Mild content bias detected.,34
+user_084,MEDIUM,43.75,LOW,90.5,Depression,33.3,MEDIUM,17.55,23.3,20.1,1.31,0,0,0,0,0,Moderate risk: Monitor browsing patterns. Mild content bias detected.,35
+user_052,MEDIUM,43.39,LOW,86.0,Bipolar,43.3,LOW,16.76,16.7,20.6,1.0,0,0,0,0,0,Moderate risk: Monitor browsing patterns. Mild content bias detected.,36
+user_043,MEDIUM,42.32,LOW,75.6,Social Anxiety,60.0,LOW,14.85,3.3,26.2,1.17,0,0,0,0,0,Moderate risk: Monitor browsing patterns. Mild content bias detected.,37
+user_073,MEDIUM,41.33,LOW,94.1,Depression,30.0,MEDIUM,17.19,23.3,29.8,1.29,0,0,0,0,0,Moderate risk: Monitor browsing patterns. Mild content bias detected.,38
+user_044,MEDIUM,41.12,LOW,75.6,General Anxiety,60.0,LOW,14.41,10.0,20.3,2.26,0,0,0,0,1,Moderate risk: Monitor browsing patterns. Mild content bias detected.,39
+user_039,MEDIUM,40.81,MEDIUM,74.3,General Anxiety,60.0,LOW,14.11,10.0,29.0,1.6,0,0,0,0,0,Moderate risk: Monitor browsing patterns. Mild content bias detected.,40
+user_038,MEDIUM,40.73,MEDIUM,74.3,Social Anxiety,60.0,LOW,14.08,3.3,27.1,1.24,0,0,0,0,0,Moderate risk: Monitor browsing patterns. Mild content bias detected.,41
+user_048,MEDIUM,39.31,MEDIUM,74.3,Social Anxiety,60.0,LOW,13.56,10.0,27.2,1.02,0,0,0,0,0,Moderate risk: Monitor browsing patterns. Mild content bias detected.,42
+user_072,MEDIUM,38.05,LOW,96.4,Bipolar,30.0,LOW,16.33,16.7,25.6,1.72,0,0,0,0,0,Moderate risk: Monitor browsing patterns. Mild content bias detected.,43
+user_062,MEDIUM,37.96,LOW,94.3,Bipolar,36.7,LOW,15.99,13.3,25.6,1.23,0,0,0,0,0,Moderate risk: Monitor browsing patterns. Mild content bias detected.,44
+user_051,MEDIUM,37.69,LOW,94.1,Social Anxiety,30.0,MEDIUM,15.86,30.0,27.6,1.56,0,0,0,0,0,Moderate risk: Monitor browsing patterns. Mild content bias detected.,45
+user_067,MEDIUM,37.4,LOW,97.0,General Anxiety,26.7,MEDIUM,16.18,20.0,27.5,1.98,0,0,0,0,0,Moderate risk: Monitor browsing patterns. Mild content bias detected.,46
+user_089,MEDIUM,37.36,LOW,92.3,Depression,40.0,MEDIUM,15.48,20.0,17.4,1.33,0,0,0,0,0,Moderate risk: Monitor browsing patterns. Mild content bias detected.,47
+user_081,MEDIUM,36.84,LOW,98.2,Bipolar,26.7,MEDIUM,16.15,23.3,22.4,1.61,0,0,0,0,0,Moderate risk: Monitor browsing patterns. Mild content bias detected.,48
+user_034,MEDIUM,36.74,MEDIUM,74.9,General Anxiety,60.0,LOW,12.71,6.7,15.2,1.77,0,0,0,0,0,Moderate risk: Monitor browsing patterns. Mild content bias detected.,49
+user_049,MEDIUM,36.71,MEDIUM,73.8,General Anxiety,60.0,LOW,12.54,6.7,23.9,1.65,0,0,0,0,0,Moderate risk: Monitor browsing patterns. Mild content bias detected.,50
+user_061,LOW,36.56,LOW,93.9,Social Anxiety,36.7,LOW,15.42,13.3,22.6,2.02,0,0,0,0,1,Healthy browsing patterns detected. No intervention needed.,51
+user_053,LOW,36.26,LOW,96.1,Bipolar,33.3,LOW,15.63,13.3,19.8,1.37,0,0,0,0,0,Healthy browsing patterns detected. No intervention needed.,52
+user_079,LOW,35.86,LOW,92.3,General Anxiety,40.0,LOW,14.93,10.0,26.6,1.66,0,0,0,0,0,Healthy browsing patterns detected. No intervention needed.,53
+user_080,LOW,35.15,LOW,97.3,Bipolar,26.7,MEDIUM,15.4,23.3,20.2,1.91,0,0,0,0,0,Healthy browsing patterns detected. No intervention needed.,54
+user_092,LOW,35.05,LOW,98.7,Bipolar,26.7,LOW,15.57,16.7,21.9,1.9,0,0,0,0,0,Healthy browsing patterns detected. No intervention needed.,55
+user_005,LOW,34.82,HIGH,20.2,Stress,90.0,LOW,4.02,0.0,22.9,0.91,1,0,0,0,0,Echo chamber detected: Diversify content sources. User reads mostly Stress content.,56
+user_078,LOW,34.69,LOW,97.0,Social Anxiety,26.7,LOW,15.19,10.0,29.2,1.0,0,0,0,0,0,Healthy browsing patterns detected. No intervention needed.,57
+user_056,LOW,34.67,LOW,98.5,Bipolar,23.3,LOW,15.4,16.7,24.1,1.3,0,0,0,0,0,Healthy browsing patterns detected. No intervention needed.,58
+user_066,LOW,34.62,LOW,96.9,General Anxiety,30.0,LOW,15.15,13.3,22.3,2.03,0,0,0,0,1,Healthy browsing patterns detected. No intervention needed.,59
+user_057,LOW,34.55,LOW,97.7,Bipolar,30.0,LOW,15.24,16.7,22.6,1.47,0,0,0,0,0,Healthy browsing patterns detected. No intervention needed.,60
+user_095,LOW,34.51,LOW,95.6,Social Anxiety,33.3,LOW,14.92,10.0,25.3,1.15,0,0,0,0,0,Healthy browsing patterns detected. No intervention needed.,61
+user_071,LOW,34.43,LOW,99.7,Depression,23.3,MEDIUM,15.49,20.0,25.9,1.54,0,0,0,0,0,Healthy browsing patterns detected. No intervention needed.,62
+user_088,LOW,33.86,LOW,96.9,Bipolar,30.0,LOW,14.87,6.7,20.6,0.68,0,0,0,0,0,Healthy browsing patterns detected. No intervention needed.,63
+user_075,LOW,33.67,LOW,95.8,Depression,30.0,LOW,14.64,13.3,19.0,1.57,0,0,0,0,0,Healthy browsing patterns detected. No intervention needed.,64
+user_099,LOW,33.64,LOW,97.3,General Anxiety,30.0,LOW,14.85,16.7,29.4,1.41,0,0,0,0,0,Healthy browsing patterns detected. No intervention needed.,65
+user_098,LOW,33.57,LOW,98.5,Depression,23.3,LOW,15.0,10.0,23.4,1.23,0,0,0,0,0,Healthy browsing patterns detected. No intervention needed.,66
+user_090,LOW,33.44,LOW,95.2,Bipolar,36.7,LOW,14.47,16.7,27.3,0.7,0,0,0,0,0,Healthy browsing patterns detected. No intervention needed.,67
+user_085,LOW,33.2,LOW,98.2,Depression,26.7,MEDIUM,14.82,20.0,19.2,1.6,0,0,0,0,0,Healthy browsing patterns detected. No intervention needed.,68
+user_055,LOW,33.19,LOW,95.9,Social Anxiety,26.7,LOW,14.48,6.7,17.5,1.44,0,0,0,0,0,Healthy browsing patterns detected. No intervention needed.,69
+user_070,LOW,33.17,LOW,94.9,General Anxiety,33.3,LOW,14.33,13.3,55.1,0.97,0,0,0,0,0,Healthy browsing patterns detected. No intervention needed.,70
+user_093,LOW,33.03,LOW,95.6,General Anxiety,30.0,LOW,14.38,3.3,19.4,1.57,0,0,0,0,0,Healthy browsing patterns detected. No intervention needed.,71
+user_091,LOW,33.01,LOW,95.3,Depression,26.7,LOW,14.33,13.3,17.4,1.74,0,0,0,0,0,Healthy browsing patterns detected. No intervention needed.,72
+user_010,LOW,32.84,HIGH,27.0,Stress,90.0,LOW,4.29,0.0,19.9,1.13,1,0,0,0,0,Echo chamber detected: Diversify content sources. User reads mostly Stress content.,73
+user_077,LOW,32.21,LOW,94.8,Stress,30.0,LOW,13.96,13.3,22.0,1.74,0,0,0,0,0,Healthy browsing patterns detected. No intervention needed.,74
+user_059,LOW,32.18,LOW,98.2,Social Anxiety,26.7,LOW,14.45,13.3,18.6,1.25,0,0,0,0,0,Healthy browsing patterns detected. No intervention needed.,75
+user_058,LOW,32.14,LOW,97.3,Social Anxiety,30.0,LOW,14.3,13.3,18.8,1.31,0,0,0,0,0,Healthy browsing patterns detected. No intervention needed.,76
+user_020,LOW,31.86,HIGH,24.2,Stress,90.0,LOW,3.52,0.0,21.7,0.81,1,0,0,0,0,Echo chamber detected: Diversify content sources. User reads mostly Stress content.,77
+user_025,LOW,31.8,HIGH,27.0,Stress,90.0,LOW,3.91,3.3,26.5,1.01,1,0,0,0,0,Echo chamber detected: Diversify content sources. User reads mostly Stress content.,78
+user_063,LOW,31.45,LOW,91.9,Bipolar,36.7,LOW,13.26,3.3,24.1,0.99,0,0,0,0,0,Healthy browsing patterns detected. No intervention needed.,79
+user_015,LOW,31.34,HIGH,27.0,Stress,90.0,LOW,3.74,3.3,17.4,0.87,1,0,0,0,0,Echo chamber detected: Diversify content sources. User reads mostly Stress content.,80
+user_087,LOW,30.92,LOW,99.3,Bipolar,23.3,LOW,14.15,16.7,24.0,1.27,0,0,0,0,0,Healthy browsing patterns detected. No intervention needed.,81
+user_096,LOW,30.91,LOW,90.3,Bipolar,36.7,LOW,12.83,6.7,23.3,1.14,0,0,0,0,0,Healthy browsing patterns detected. No intervention needed.,82
+user_074,LOW,30.49,LOW,97.3,Bipolar,26.7,LOW,13.7,13.3,19.6,1.33,0,0,0,0,0,Healthy browsing patterns detected. No intervention needed.,83
+user_086,LOW,30.43,LOW,99.7,Stress,23.3,LOW,14.03,16.7,20.4,1.58,0,0,0,0,0,Healthy browsing patterns detected. No intervention needed.,84
+user_069,LOW,30.41,LOW,99.3,Social Anxiety,23.3,LOW,13.96,13.3,21.9,1.05,0,0,0,0,0,Healthy browsing patterns detected. No intervention needed.,85
+user_000,LOW,30.32,HIGH,24.2,Stress,90.0,LOW,2.96,0.0,24.3,0.58,1,0,0,0,0,Echo chamber detected: Diversify content sources. User reads mostly Stress content.,86
+user_082,LOW,30.07,LOW,91.5,Bipolar,30.0,LOW,12.7,6.7,22.8,1.23,0,0,0,0,0,Healthy browsing patterns detected. No intervention needed.,87
+user_050,LOW,28.87,LOW,99.7,Stress,23.3,LOW,13.46,10.0,25.0,0.93,0,0,0,0,0,Healthy browsing patterns detected. No intervention needed.,88
+user_083,LOW,28.71,LOW,98.2,Stress,26.7,LOW,13.18,16.7,29.5,1.36,0,0,0,0,0,Healthy browsing patterns detected. No intervention needed.,89
+user_065,LOW,28.36,LOW,99.7,Stress,23.3,LOW,13.27,10.0,22.9,0.87,0,0,0,0,0,Healthy browsing patterns detected. No intervention needed.,90
+user_094,LOW,27.8,LOW,98.2,Stress,26.7,LOW,12.85,10.0,23.6,0.92,0,0,0,0,0,Healthy browsing patterns detected. No intervention needed.,91
+user_068,LOW,27.74,LOW,98.7,Stress,26.7,LOW,12.9,16.7,26.4,1.19,0,0,0,0,0,Healthy browsing patterns detected. No intervention needed.,92
+user_054,LOW,27.18,LOW,94.7,General Anxiety,26.7,LOW,12.11,3.3,20.9,1.39,0,0,0,0,0,Healthy browsing patterns detected. No intervention needed.,93
+user_060,LOW,26.99,LOW,95.3,General Anxiety,30.0,LOW,12.13,6.7,15.5,1.51,0,0,0,0,0,Healthy browsing patterns detected. No intervention needed.,94
+user_076,LOW,25.7,LOW,94.7,Bipolar,26.7,LOW,11.57,0.0,18.4,0.83,0,0,0,0,0,Healthy browsing patterns detected. No intervention needed.,95
+user_097,LOW,25.01,LOW,94.9,Stress,33.3,LOW,11.35,6.7,21.2,0.95,0,0,0,0,0,Healthy browsing patterns detected. No intervention needed.,96
+user_045,LOW,24.2,MEDIUM,73.8,Stress,60.0,LOW,7.97,6.7,18.9,1.2,0,0,0,0,0,Healthy browsing patterns detected. No intervention needed.,97
+user_040,LOW,23.81,MEDIUM,72.6,Stress,60.0,LOW,7.65,3.3,21.2,0.81,0,0,0,0,0,Healthy browsing patterns detected. No intervention needed.,98
+user_035,LOW,23.27,MEDIUM,68.6,Stress,60.0,LOW,6.87,0.0,22.0,0.66,0,0,0,0,0,Healthy browsing patterns detected. No intervention needed.,99
+user_030,LOW,23.18,MEDIUM,74.3,Stress,60.0,LOW,7.67,3.3,21.7,0.74,0,0,0,0,0,Healthy browsing patterns detected. No intervention needed.,100
