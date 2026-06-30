@@ -5,6 +5,17 @@ An end-to-end data analytics project that detects two harmful
 digital behaviors — Echo Chambers and Doom Scrolling — using 
 Reddit Mental Health data, Python, and Power BI.
 
+## Dashboard Preview
+
+![Overview](Screenshots/1_overview.png)
+*Risk overview — combined scoring across all analyzed users*
+
+![Echo Chamber Analysis](Screenshots/2_echo_chamber.png)
+*Echo chamber detection using Shannon Entropy diversity scoring*
+
+![Doom Scrolling Analysis](Screenshots/3_doomscrolling.png)
+*Doom-scroll risk based on weighted negativity scoring*
+
 ## Problem Statement
 - **Echo Chambers**: Users consume content from only one category, narrowing their perspective
 - **Doom Scrolling**: Users compulsively consume high-negativity content, damaging mental health
@@ -15,18 +26,13 @@ Reddit Mental Health data, Python, and Power BI.
 - Categories: Stress, Depression, Bipolar, Social Anxiety, General Anxiety
 
 ## Project Files
-| File | Description | Notebooks
+| File | Description |
 |------|-------------|
-
-01_data_exploration.py | Dataset profiling and EDA |
-
-02_data_cleaning.py | Text cleaning and feature engineering |
-
-3.1_echo_chamber_analysis.py | Shannon Entropy diversity scoring |
-
-3.2_doomscrolling_analysis.py | Weighted doom score per post and user |
-
-04_final_output.py | Combined risk engine and Power BI exports |
+| 01_data_exploration.py | Dataset profiling and EDA |
+| 02_data_cleaning.py | Text cleaning and feature engineering |
+| 3.1_echo_chamber_analysis.py | Shannon Entropy diversity scoring |
+| 3.2_doomscrolling_analysis.py | Weighted doom score per post and user |
+| 04_final_output.py | Combined risk engine and Power BI exports |
 
 ## Key Results
 | Metric | Value |
@@ -55,4 +61,4 @@ python 04_final_output.py
 
 ## Author
 Neha Verma  
-MSc Data Science — University of Strathclyde
+MSc Data Science — University of Strathclyde, United Kingdom
