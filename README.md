@@ -21,9 +21,12 @@ Reddit Mental Health data, Python, and Power BI.
 - **Doom Scrolling**: Users compulsively consume high-negativity content, damaging mental health
 
 ## Dataset
-- Source: Reddit Mental Health Dataset
+- Source: [Reddit Mental Health Dataset](https://www.kaggle.com/datasets/neelghoshal/reddit-mental-health-data?select=data_to_be_cleansed.csv) (Kaggle, public dataset)
 - Size: 5,957 posts across 5 mental health subreddits
 - Categories: Stress, Depression, Bipolar, Social Anxiety, General Anxiety
+
+## Limitations & Ethical Considerations
+This project uses a publicly available, pre-anonymized dataset for educational and portfolio purposes only, it is not connected to real, identifiable individuals and was not built for or deployed against real users. "Risk" scores reflect patterns in posting content and frequency, not a clinical, medical, or psychological assessment, and should not be interpreted as such. The risk thresholds and scoring weights used here are illustrative choices made to demonstrate the analytical method (entropy-based diversity scoring, weighted normalization), not validated clinical thresholds. This project is intended to showcase data analysis and feature engineering skills, not to make claims about individual mental health.
 
 ## Project Files
 | File | Description |
