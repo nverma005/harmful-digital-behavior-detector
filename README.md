@@ -2,13 +2,13 @@
 
 ## Overview
 An end-to-end data analytics project that detects two harmful 
-digital behaviors — Echo Chambers and Doom Scrolling — using 
+digital behaviors: Echo Chambers and Doom Scrolling, using 
 Reddit Mental Health data, Python, and Power BI.
 
 ## Dashboard Preview
 
 ![Overview](Screenshots/1_overview.png)
-*Risk overview — combined scoring across all analyzed users*
+*Risk overview: combined scoring across all analyzed users*
 
 ![Echo Chamber Analysis](Screenshots/2_echo_chamber.png)
 *Echo chamber detection using Shannon Entropy diversity scoring*
