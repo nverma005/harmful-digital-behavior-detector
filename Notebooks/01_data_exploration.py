@@ -29,6 +29,9 @@ df = pd.read_csv("data\Reddit Mental Health Data.csv")
 # BASIC INSPECTION — always do this first with any dataset
 # ============================================================
 
+'''print(df['target'].head(50)) 
+print(df['target'].tail(50))'''
+
 # How many rows and columns?
 print("Shape (rows, columns):", df.shape)
 

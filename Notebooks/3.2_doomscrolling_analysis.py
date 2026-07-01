@@ -3,58 +3,31 @@
 # Project: Harmful Digital Behavior Detector
 # ============================================================
 
-# CONCEPT FIRST — what makes a post "doom scroll" content?
-#
-# Doom scrolling happens when someone compulsively consumes
-# a stream of distressing, negative content without stopping.
-# Three signals drive it at the post level:
-#
-# SIGNAL 1 — NEGATIVITY: how distressing is the content?
-#            (we already have negativity_density from Step 3)
-#
-# SIGNAL 2 — LENGTH: longer posts take more time to read.
-#            A very long, very negative post is a deep doom-hole.
-#
-# SIGNAL 3 — CATEGORY WEIGHT: some subreddits are structurally
-#            more doom-prone than others. A Depression post is
-#            more likely to be doom scroll content than a Stress
-#            tip post about time management.
-#
-# We combine these into a single DOOM SCORE per post (0–100).
-# Then we simulate each user's session and flag if they
-# consumed too many high-doom posts in one sitting.
-
 import pandas as pd
 import numpy as np
-import os 
+import os
 
-# Create output folder if it doesn't exist
 OUTPUT_FOLDER = "output"
 os.makedirs(OUTPUT_FOLDER, exist_ok=True)
-# os.makedirs creates the folder automatically
-# exist_ok=True means no error if folder already exists
 print(f"Output folder ready: {OUTPUT_FOLDER}/")
 
 # ============================================================
 # LOAD DATA
 # ============================================================
 
-df = pd.read_csv(f"{OUTPUT_FOLDER}/clean_data.csv")
-users_df = pd.read_csv(f"{OUTPUT_FOLDER}/echo_chamber_scores.csv")
+df = pd.read_csv(f"{OUTPUT_FOLDER}/posts_with_sessions.csv")
+sessions_df = pd.read_csv(f"{OUTPUT_FOLDER}/echo_chamber_scores.csv")
 print("Posts loaded:", len(df))
-print("Users loaded:", len(users_df))
+print("Sessions loaded:", len(sessions_df))
 
 # ============================================================
 # STEP 4B-1: CATEGORY DOOM WEIGHT
 # ============================================================
 
-# Each subreddit has a base "doom weight" — how structurally
-# negative/distressing that community's content tends to be.
+# Each subreddit has a base doom weight reflecting how
+# structurally distressing its content tends to be.
 # Scale: 0.0 (benign) to 1.0 (highly distressing)
-#
-# These weights are domain-knowledge judgments:
-# Depression community posts are structurally heavier than
-# a general Stress tips post.
+# These are domain-knowledge judgments, not fitted values.
 
 category_doom_weight = {
     0: 0.4,   # Stress          — moderate, often solution-focused
@@ -67,77 +40,64 @@ category_doom_weight = {
 df['category_weight'] = df['target'].map(category_doom_weight)
 
 # ============================================================
-# STEP 4B-2: NORMALIZE FEATURES TO 0–1 SCALE
+# STEP 4B-2: NORMALIZE FEATURES TO 0-1 SCALE
 # ============================================================
 
-# Our three signals are in different units:
-#   negativity_density → 0 to 28.57 (per 100 words)
-#   word_count         → 0 to ~3000
-#   category_weight    → already 0.4 to 0.9
-#
-# To combine them fairly, we normalize each to 0–1.
-# Formula: (value - min) / (max - min)
-# This is called "min-max normalization".
+# Three signals, different units — normalize each to 0-1
+# using min-max normalization before combining.
 
 def normalize(series):
-    """Scale a pandas Series to range 0–1."""
     min_val = series.min()
     max_val = series.max()
     if max_val == min_val:
-        return series * 0       # avoid division by zero
+        return series * 0
     return (series - min_val) / (max_val - min_val)
 
-df['neg_normalized']  = normalize(df['negativity_density'])
-df['len_normalized']  = normalize(df['word_count'])
-# category_weight is already in 0–1 range, just rescale to 0–1
-df['cat_normalized']  = normalize(df['category_weight'])
+df['neg_normalized'] = normalize(df['negativity_density'])
+df['len_normalized'] = normalize(df['word_count'])
+df['cat_normalized'] = normalize(df['category_weight'])
 
-print("\nNormalization done. Sample check (should all be 0–1):")
+print("\nNormalization done. Sample check (should all be 0-1):")
 print("neg_normalized range:", df['neg_normalized'].min().round(3),
       "to", df['neg_normalized'].max().round(3))
 print("len_normalized range:", df['len_normalized'].min().round(3),
       "to", df['len_normalized'].max().round(3))
 
 # ============================================================
-# STEP 4B-3: WEIGHTED DOOM SCORE PER POST
+# STEP 4B-3: WEIGHTED DOOM SCORE PER POST (0-100)
 # ============================================================
 
-# We combine the three normalized signals with weights.
-# The weights reflect how much each signal contributes
-# to doom scroll risk:
-#
-#   Negativity  → 50% weight  (most important — it's the "doom" part)
-#   Length      → 30% weight  (longer = more time lost scrolling)
-#   Category    → 20% weight  (base risk of the subreddit)
-#
-# Final score is multiplied by 100 so it reads as 0–100.
+# Weights reflect signal importance:
+#   Negativity  50% — the core "doom" signal
+#   Length      30% — longer negative posts = deeper doom-hole
+#   Category    20% — base risk of the subreddit
 
 WEIGHT_NEGATIVITY = 0.50
 WEIGHT_LENGTH     = 0.30
 WEIGHT_CATEGORY   = 0.20
 
 df['doom_score'] = (
-    (df['neg_normalized']  * WEIGHT_NEGATIVITY) +
-    (df['len_normalized']  * WEIGHT_LENGTH) +
-    (df['cat_normalized']  * WEIGHT_CATEGORY)
+    (df['neg_normalized'] * WEIGHT_NEGATIVITY) +
+    (df['len_normalized'] * WEIGHT_LENGTH) +
+    (df['cat_normalized'] * WEIGHT_CATEGORY)
 ) * 100
 
 df['doom_score'] = df['doom_score'].round(2)
 
-print("\nDoom score stats (0–100 scale):")
+print("\nDoom score stats (0-100 scale):")
 print(df['doom_score'].describe().round(2))
 
 # ============================================================
 # STEP 4B-4: POST-LEVEL DOOM RISK LABEL
 # ============================================================
 
-# Thresholds derived from the score distribution:
-#   Top ~15% of posts  → HIGH doom content
-#   Next ~30%          → MEDIUM doom content
-#   Bottom ~55%        → LOW doom content
+# Thresholds are percentile-based, derived from score distribution:
+#   Top 15% of posts  (85th percentile) → HIGH
+#   Next 30%          (55th percentile) → MEDIUM
+#   Bottom 55%                          → LOW
 
-p85 = df['doom_score'].quantile(0.85)   # top 15% threshold
-p55 = df['doom_score'].quantile(0.55)   # top 45% threshold
+p85 = df['doom_score'].quantile(0.85)
+p55 = df['doom_score'].quantile(0.55)
 
 print(f"\nThresholds — HIGH: >{p85:.2f},  MEDIUM: >{p55:.2f}")
 
@@ -156,122 +116,90 @@ print(df['post_doom_risk'].value_counts())
 
 print("\nDoom score by category:")
 print(df.groupby('category_name')['doom_score']
-      .agg(['mean','min','max']).round(2))
+      .agg(['mean', 'min', 'max']).round(2))
 
 # ============================================================
-# STEP 4B-5: USER SESSION DOOM SCORE
+# STEP 4B-5: SESSION-LEVEL DOOM SCORE
 # ============================================================
 
-# Now we roll up post-level scores to user level.
-# We re-simulate each user's session (same seed as Step 4A)
-# and calculate their AVERAGE doom score and HIGH doom post ratio.
+# Roll post-level scores up to session level.
+# Sessions come from 3.1 — same shuffle, same seed.
+# No synthetic construction. Every post used exactly once.
 
-np.random.seed(42)
-NUM_POSTS_PER_USER = 30
+# Session-level thresholds derived from score distribution.
+# Consistent with post-level approach — percentile-based, not fixed.
+# Calculated after groupby so the distribution is known first.
 
-session_records = []
+def assign_doom_risk(df, score_col='avg_doom_score', pct_col='high_doom_pct'):
+    sp85_score = df[score_col].quantile(0.85)
+    sp55_score = df[score_col].quantile(0.55)
+    sp85_pct   = df[pct_col].quantile(0.85)
+    sp55_pct   = df[pct_col].quantile(0.55)
 
-for user_id in range(100):
-    user_label = f'user_{user_id:03d}'
+    print(f"\nSession thresholds (percentile-based):")
+    print(f"  HIGH:   avg_doom > {sp85_score:.2f} OR high_doom_pct > {sp85_pct:.1f}%")
+    print(f"  MEDIUM: avg_doom > {sp55_score:.2f} OR high_doom_pct > {sp55_pct:.1f}%")
 
-    # Recreate exact same post selection as Step 4A
-    if user_id < 30:
-        dominant_category = user_id % 5
-        dominant_posts = df[df['target'] == dominant_category].sample(
-            n=27, replace=True, random_state=user_id
-        )
-        other_posts = df[df['target'] != dominant_category].sample(
-            n=3, replace=True, random_state=user_id + 1000
-        )
-        user_posts = pd.concat([dominant_posts, other_posts])
+    def label(row):
+        if row[score_col] >= sp85_score or row[pct_col] >= sp85_pct:
+            return 'HIGH'
+        elif row[score_col] >= sp55_score or row[pct_col] >= sp55_pct:
+            return 'MEDIUM'
+        else:
+            return 'LOW'
 
-    elif user_id < 50:
-        dominant_category = user_id % 5
-        dominant_posts = df[df['target'] == dominant_category].sample(
-            n=18, replace=True, random_state=user_id
-        )
-        other_posts = df[df['target'] != dominant_category].sample(
-            n=12, replace=True, random_state=user_id + 1000
-        )
-        user_posts = pd.concat([dominant_posts, other_posts])
+    return df.apply(label, axis=1)
 
-    else:
-        user_posts = df.sample(
-            n=NUM_POSTS_PER_USER, replace=True, random_state=user_id
-        )
+session_doom = (df.groupby('session_id')
+                .agg(
+                    avg_doom_score=('doom_score', 'mean'),
+                    high_doom_posts=('post_doom_risk',
+                                     lambda x: (x == 'HIGH').sum()),
+                    total_posts=('doom_score', 'count'),
+                    est_read_minutes=('word_count',
+                                      lambda x: round(x.sum() / 200, 1)),
+                    total_words_read=('word_count', 'sum')
+                )
+                .reset_index())
 
-    # How many of their 30 posts were HIGH doom content?
-    high_doom_count = (user_posts['post_doom_risk'] == 'HIGH').sum()
-    high_doom_ratio = round(high_doom_count / NUM_POSTS_PER_USER * 100, 1)
+session_doom['avg_doom_score'] = session_doom['avg_doom_score'].round(2)
+session_doom['high_doom_pct'] = (
+    session_doom['high_doom_posts'] / session_doom['total_posts'] * 100
+).round(1)
 
-    # Average doom score across their session
-    avg_doom = round(user_posts['doom_score'].mean(), 2)
-
-    # Total estimated reading time (rough: avg 200 words/minute)
-    total_words = user_posts['word_count'].sum()
-    est_read_minutes = round(total_words / 200, 1)
-
-    session_records.append({
-        'user_id':           user_label,
-        'avg_doom_score':    avg_doom,
-        'high_doom_posts':   high_doom_count,
-        'high_doom_pct':     high_doom_ratio,
-        'est_read_minutes':  est_read_minutes,
-        'total_words_read':  total_words,
-    })
-
-session_df = pd.DataFrame(session_records)
-
-# ============================================================
-# STEP 4B-6: USER-LEVEL DOOM SCROLL RISK LABEL
-# ============================================================
-
-# A user is flagged for doom scrolling if their session contains
-# a high concentration of distressing content.
-#
-# Rules (based on 30-post session):
-#   HIGH   → avg doom score ≥ 35  OR  high doom posts ≥ 35%
-#   MEDIUM → avg doom score ≥ 20  OR  high doom posts ≥ 20%
-#   LOW    → everything else
-
-def doom_scroll_risk(row):
-    if row['avg_doom_score'] >= 35 or row['high_doom_pct'] >= 35:
-        return 'HIGH'
-    elif row['avg_doom_score'] >= 20 or row['high_doom_pct'] >= 20:
-        return 'MEDIUM'
-    else:
-        return 'LOW'
-
-session_df['doom_scroll_risk'] = session_df.apply(doom_scroll_risk, axis=1)
+session_doom['doom_scroll_risk'] = assign_doom_risk(session_doom)
 
 print("\n=== DOOM SCROLL DETECTION RESULTS ===")
-print("\nUser doom scroll risk distribution:")
-print(session_df['doom_scroll_risk'].value_counts())
+print("\nSession doom scroll risk distribution:")
+print(session_doom['doom_scroll_risk'].value_counts())
 
 print("\nAvg doom score by risk group:")
-print(session_df.groupby('doom_scroll_risk')['avg_doom_score']
-      .agg(['min','mean','max']).round(2))
+print(session_doom.groupby('doom_scroll_risk')['avg_doom_score']
+      .agg(['min', 'mean', 'max']).round(2))
 
-print("\nSample HIGH doom scroll users:")
-high_doom = session_df[session_df['doom_scroll_risk'] == 'HIGH']
-print(high_doom[['user_id','avg_doom_score','high_doom_pct',
-                  'est_read_minutes','doom_scroll_risk'
-                  ]].head(5).to_string(index=False))
+print("\nSample HIGH doom scroll sessions:")
+high_doom = session_doom[session_doom['doom_scroll_risk'] == 'HIGH']
+if len(high_doom) > 0:
+    print(high_doom[['session_id', 'avg_doom_score', 'high_doom_pct',
+                      'est_read_minutes', 'doom_scroll_risk'
+                      ]].head(5).to_string(index=False))
+else:
+    print("No HIGH risk sessions detected.")
 
-print("\nSample LOW doom scroll users:")
-low_doom = session_df[session_df['doom_scroll_risk'] == 'LOW']
-print(low_doom[['user_id','avg_doom_score','high_doom_pct',
-                 'est_read_minutes','doom_scroll_risk'
-                 ]].head(5).to_string(index=False))
+print("\nSample LOW doom scroll sessions:")
+low_doom = session_doom[session_doom['doom_scroll_risk'] == 'LOW']
+print(low_doom[['session_id', 'avg_doom_score', 'high_doom_pct',
+                'est_read_minutes', 'doom_scroll_risk'
+                ]].head(5).to_string(index=False))
 
 # ============================================================
-# STEP 4B-7: SAVE BOTH OUTPUTS
+# STEP 4B-6: SAVE
 # ============================================================
 
 df.to_csv(f"{OUTPUT_FOLDER}/posts_with_doom_scores.csv", index=False)
-session_df.to_csv(f"{OUTPUT_FOLDER}/doom_scroll_scores.csv", index=False)
+session_doom.to_csv(f"{OUTPUT_FOLDER}/doom_scroll_scores.csv", index=False)
 
 print("\nposts_with_doom_scores.csv saved!")
 print("doom_scroll_scores.csv saved!")
 print("\nPost columns:", df.columns.tolist())
-print("Session columns:", session_df.columns.tolist())
+print("Session columns:", session_doom.columns.tolist())
