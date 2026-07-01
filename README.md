@@ -1,9 +1,7 @@
 # Harmful Digital Behavior Detection System
 
 ## Overview
-An end-to-end data analytics project that detects two harmful 
-digital behaviors: Echo Chambers and Doom Scrolling, using 
-Reddit Mental Health data, Python, and Power BI.
+An end-to-end data analytics project detecting two harmful digital behaviors — Echo Chambers and Doom Scrolling — using Reddit Mental Health data, Python, and Power BI. All 5,940 posts are processed across 198 real content sessions. No synthetic users. No sampling with replacement. Fixed random seed (42) ensures every run is reproducible.
 
 ## Dashboard Preview
 
@@ -26,7 +24,17 @@ Reddit Mental Health data, Python, and Power BI.
 - Categories: Stress, Depression, Bipolar, Social Anxiety, General Anxiety
 
 ## Limitations & Ethical Considerations
-This project uses a publicly available, pre-anonymized dataset for educational and portfolio purposes only, it is not connected to real, identifiable individuals and was not built for or deployed against real users. "Risk" scores reflect patterns in posting content and frequency, not a clinical, medical, or psychological assessment, and should not be interpreted as such. The risk thresholds and scoring weights used here are illustrative choices made to demonstrate the analytical method (entropy-based diversity scoring, weighted normalization), not validated clinical thresholds. This project is intended to showcase data analysis and feature engineering skills, not to make claims about individual mental health.
+This project uses a publicly available, pre-anonymized dataset for educational and portfolio purposes only. It is not connected to real identifiable individuals and was never built for deployment against real users.
+
+"Risk" scores reflect content patterns, not clinical or psychological assessments. Do not interpret them as medical judgments.
+
+**Analytical choices made transparent:**
+-> Risk thresholds at post and session level are percentile-based, derived from the actual data distribution, not arbitrary fixed numbers.
+-> Category doom weights (Depression 0.9, Stress 0.4) are domain-knowledge estimates, not empirically fitted values.
+-> Echo chamber detection uses vocabulary exclusivity scoring across all 5,940 posts and Jaccard similarity across 10 category pairs.
+-> Key finding: mental health subreddits share 68-76% vocabulary overlap. Echo chamber risk here is about immersion in a shared distress vocabulary, not category isolation.
+
+This project demonstrates data analysis and feature engineering skills. It makes no claims about individual mental health.
 
 ## Project Files
 | File | Description |
@@ -40,12 +48,14 @@ This project uses a publicly available, pre-anonymized dataset for educational a
 ## Key Results
 | Metric | Value |
 |--------|-------|
-| Total Users Analysed | 100 |
-| HIGH Risk Users | 20 |
-| Users in Echo Bubble | 30 |
-| Heavy Doom Scroll Users | 10 |
-| Double Risk Users | 6 |
-| Avg Combined Risk Score | 43.60 |
+| Total Sessions Analysed | 198 |
+| HIGH Risk Sessions | 40 |
+| MEDIUM Risk Sessions | 59 |
+| LOW Risk Sessions | 99 |
+| Sessions with Echo Bubble Signal | 18 |
+| Heavy Doom Scroll Sessions | 5 |
+| Double Risk Sessions | 9 |
+| Avg Combined Risk Score | 39.90 |
 
 ## Tech Stack
 - Python: pandas, numpy
