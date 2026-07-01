@@ -1,101 +1,199 @@
-user_id,total_posts_read,count_stress,count_depression,count_bipolar,count_social_anxiety,count_general_anxiety,dominant_category,dominant_category_name,dominant_pct,avg_negativity,avg_word_count,diversity_score,diversity_pct,echo_chamber_risk
-user_000,30,27,0,1,0,2,0,Stress,90.0,0.58,162.3,0.5608,24.2,HIGH
-user_001,30,2,27,0,1,0,1,Depression,90.0,1.54,215.6,0.5608,24.2,HIGH
-user_002,30,0,2,27,0,1,2,Bipolar,90.0,1.29,98.3,0.5608,24.2,HIGH
-user_003,30,0,1,2,27,0,3,Social Anxiety,90.0,0.86,147.6,0.5608,24.2,HIGH
-user_004,30,1,0,1,1,27,4,General Anxiety,90.0,1.85,181.9,0.6275,27.0,HIGH
-user_005,30,27,0,3,0,0,0,Stress,90.0,0.91,152.4,0.469,20.2,HIGH
-user_006,30,0,27,0,2,1,1,Depression,90.0,1.57,219.0,0.5608,24.2,HIGH
-user_007,30,0,2,27,0,1,2,Bipolar,90.0,1.69,157.7,0.5608,24.2,HIGH
-user_008,30,2,0,1,27,0,3,Social Anxiety,90.0,1.01,149.6,0.5608,24.2,HIGH
-user_009,30,1,0,1,1,27,4,General Anxiety,90.0,2.5,153.6,0.6275,27.0,HIGH
-user_010,30,27,1,1,1,0,0,Stress,90.0,1.13,132.5,0.6275,27.0,HIGH
-user_011,30,1,27,1,1,0,1,Depression,90.0,1.5,155.0,0.6275,27.0,HIGH
-user_012,30,1,0,27,1,1,2,Bipolar,90.0,0.75,167.8,0.6275,27.0,HIGH
-user_013,30,0,0,3,27,0,3,Social Anxiety,90.0,1.21,324.7,0.469,20.2,HIGH
-user_014,30,1,1,0,1,27,4,General Anxiety,90.0,1.95,209.7,0.6275,27.0,HIGH
-user_015,30,27,1,1,1,0,0,Stress,90.0,0.87,115.8,0.6275,27.0,HIGH
-user_016,30,1,27,0,0,2,1,Depression,90.0,1.85,196.8,0.5608,24.2,HIGH
-user_017,30,0,2,27,0,1,2,Bipolar,90.0,0.69,143.1,0.5608,24.2,HIGH
-user_018,30,2,1,0,27,0,3,Social Anxiety,90.0,1.14,134.5,0.5608,24.2,HIGH
-user_019,30,1,2,0,0,27,4,General Anxiety,90.0,1.8,155.0,0.5608,24.2,HIGH
-user_020,30,27,0,1,2,0,0,Stress,90.0,0.81,144.5,0.5608,24.2,HIGH
-user_021,30,1,27,0,1,1,1,Depression,90.0,1.85,165.6,0.6275,27.0,HIGH
-user_022,30,0,0,27,2,1,2,Bipolar,90.0,1.4,159.8,0.5608,24.2,HIGH
-user_023,30,0,0,2,27,1,3,Social Anxiety,90.0,0.96,365.4,0.5608,24.2,HIGH
-user_024,30,0,1,2,0,27,4,General Anxiety,90.0,2.1,140.9,0.5608,24.2,HIGH
-user_025,30,27,0,1,1,1,0,Stress,90.0,1.01,176.4,0.6275,27.0,HIGH
-user_026,30,1,27,1,1,0,1,Depression,90.0,2.96,141.6,0.6275,27.0,HIGH
-user_027,30,3,0,27,0,0,2,Bipolar,90.0,0.74,153.1,0.469,20.2,HIGH
-user_028,30,2,1,0,27,0,3,Social Anxiety,90.0,0.77,181.9,0.5608,24.2,HIGH
-user_029,30,3,0,0,0,27,4,General Anxiety,90.0,1.43,243.0,0.469,20.2,HIGH
-user_030,30,18,2,5,2,3,0,Stress,60.0,0.74,144.9,1.7261,74.3,MEDIUM
-user_031,30,5,18,3,3,1,1,Depression,60.0,1.32,192.3,1.701,73.3,MEDIUM
-user_032,30,2,3,18,4,3,2,Bipolar,60.0,1.57,135.2,1.7546,75.6,LOW
-user_033,30,3,2,6,18,1,3,Social Anxiety,60.0,1.57,113.8,1.6628,71.6,MEDIUM
-user_034,30,4,2,4,2,18,4,General Anxiety,60.0,1.77,101.2,1.7383,74.9,MEDIUM
-user_035,30,18,0,5,3,4,0,Stress,60.0,0.66,146.4,1.5928,68.6,MEDIUM
-user_036,30,2,18,3,3,4,1,Depression,60.0,1.7,150.5,1.7546,75.6,LOW
-user_037,30,2,3,18,4,3,2,Bipolar,60.0,1.31,195.2,1.7546,75.6,LOW
-user_038,30,3,2,2,18,5,3,Social Anxiety,60.0,1.24,180.4,1.7261,74.3,MEDIUM
-user_039,30,2,3,5,2,18,4,General Anxiety,60.0,1.6,193.4,1.7261,74.3,MEDIUM
-user_040,30,18,4,2,1,5,0,Stress,60.0,0.81,141.6,1.6846,72.6,MEDIUM
-user_041,30,1,18,4,3,4,1,Depression,60.0,1.68,148.9,1.7131,73.8,MEDIUM
-user_042,30,2,0,18,4,6,2,Bipolar,60.0,1.22,185.1,1.5546,67.0,MEDIUM
-user_043,30,3,3,4,18,2,3,Social Anxiety,60.0,1.17,174.6,1.7546,75.6,LOW
-user_044,30,3,3,4,2,18,4,General Anxiety,60.0,2.26,135.2,1.7546,75.6,LOW
-user_045,30,18,1,4,4,3,0,Stress,60.0,1.2,125.9,1.7131,73.8,MEDIUM
-user_046,30,5,18,3,3,1,1,Depression,60.0,1.59,215.8,1.701,73.3,MEDIUM
-user_047,30,3,4,18,2,3,2,Bipolar,60.0,1.59,102.9,1.7546,75.6,LOW
-user_048,30,5,3,2,18,2,3,Social Anxiety,60.0,1.02,181.6,1.7261,74.3,MEDIUM
-user_049,30,4,1,4,3,18,4,General Anxiety,60.0,1.65,159.2,1.7131,73.8,MEDIUM
-user_050,30,7,6,6,6,5,0,Stress,23.3,0.93,166.4,2.3139,99.7,LOW
-user_051,30,6,8,5,9,2,3,Social Anxiety,30.0,1.56,183.7,2.1853,94.1,LOW
-user_052,30,2,6,13,7,2,2,Bipolar,43.3,1.0,137.6,1.998,86.0,LOW
-user_053,30,4,6,10,4,6,2,Bipolar,33.3,1.37,131.7,2.2323,96.1,LOW
-user_054,30,8,2,5,7,8,4,General Anxiety,26.7,1.39,139.5,2.1982,94.7,LOW
-user_055,30,4,3,8,8,7,3,Social Anxiety,26.7,1.44,116.9,2.2267,95.9,LOW
-user_056,30,4,7,7,5,7,2,Bipolar,23.3,1.3,160.8,2.2881,98.5,LOW
-user_057,30,6,6,9,5,4,2,Bipolar,30.0,1.47,151.0,2.2683,97.7,LOW
-user_058,30,5,4,7,9,5,3,Social Anxiety,30.0,1.31,125.2,2.2602,97.3,LOW
-user_059,30,5,7,4,8,6,3,Social Anxiety,26.7,1.25,123.7,2.2812,98.2,LOW
-user_060,30,8,3,4,6,9,4,General Anxiety,30.0,1.51,103.1,2.2138,95.3,LOW
-user_061,30,6,4,6,11,3,3,Social Anxiety,36.7,2.02,150.9,2.1793,93.9,LOW
-user_062,30,3,5,11,6,5,2,Bipolar,36.7,1.23,170.4,2.189,94.3,LOW
-user_063,30,8,3,11,5,3,2,Bipolar,36.7,0.99,160.9,2.1345,91.9,LOW
-user_064,30,4,13,5,3,5,1,Depression,43.3,1.93,134.2,2.1042,90.6,LOW
-user_065,30,7,6,6,6,5,0,Stress,23.3,0.87,152.4,2.3139,99.7,LOW
-user_066,30,6,7,4,4,9,4,General Anxiety,30.0,2.03,148.5,2.2505,96.9,LOW
-user_067,30,5,7,7,3,8,4,General Anxiety,26.7,1.98,183.2,2.2513,97.0,LOW
-user_068,30,8,5,5,5,7,0,Stress,26.7,1.19,175.8,2.2909,98.7,LOW
-user_069,30,5,6,5,7,7,3,Social Anxiety,23.3,1.05,146.2,2.3058,99.3,LOW
-user_070,30,4,3,6,7,10,4,General Anxiety,33.3,0.97,367.6,2.2024,94.9,LOW
-user_071,30,5,7,6,6,6,1,Depression,23.3,1.54,172.6,2.3139,99.7,LOW
-user_072,30,3,5,9,6,7,2,Bipolar,30.0,1.72,170.8,2.2384,96.4,LOW
-user_073,30,3,9,8,7,3,1,Depression,30.0,1.29,198.5,2.1839,94.1,LOW
-user_074,30,6,3,8,7,6,2,Bipolar,26.7,1.33,131.0,2.2594,97.3,LOW
-user_075,30,8,9,5,3,5,1,Depression,30.0,1.57,126.7,2.2234,95.8,LOW
-user_076,30,8,2,8,5,7,2,Bipolar,26.7,0.83,122.5,2.1982,94.7,LOW
-user_077,30,9,6,7,2,6,0,Stress,30.0,1.74,146.3,2.2002,94.8,LOW
-user_078,30,5,7,7,8,3,3,Social Anxiety,26.7,1.0,194.3,2.2513,97.0,LOW
-user_079,30,3,4,6,5,12,4,General Anxiety,40.0,1.66,177.6,2.1438,92.3,LOW
-user_080,30,6,6,8,3,7,2,Bipolar,26.7,1.91,134.6,2.2594,97.3,LOW
-user_081,30,4,7,8,5,6,2,Bipolar,26.7,1.61,149.1,2.2812,98.2,LOW
-user_082,30,7,2,9,3,9,2,Bipolar,30.0,1.23,151.9,2.1247,91.5,LOW
-user_083,30,8,4,5,7,6,0,Stress,26.7,1.36,196.7,2.2812,98.2,LOW
-user_084,30,1,10,7,7,5,1,Depression,33.3,1.31,133.9,2.1025,90.5,LOW
-user_085,30,6,8,4,5,7,1,Depression,26.7,1.6,127.9,2.2812,98.2,LOW
-user_086,30,7,5,6,6,6,0,Stress,23.3,1.58,135.8,2.3139,99.7,LOW
-user_087,30,7,6,7,5,5,2,Bipolar,23.3,1.27,159.8,2.3058,99.3,LOW
-user_088,30,4,7,9,6,4,2,Bipolar,30.0,0.68,137.5,2.2505,96.9,LOW
-user_089,30,6,12,3,4,5,1,Depression,40.0,1.33,116.0,2.1438,92.3,LOW
-user_090,30,5,5,11,5,4,2,Bipolar,36.7,0.7,182.1,2.2108,95.2,LOW
-user_091,30,7,8,2,6,7,1,Depression,26.7,1.74,116.2,2.2131,95.3,LOW
-user_092,30,5,5,8,5,7,2,Bipolar,26.7,1.9,145.7,2.2909,98.7,LOW
-user_093,30,4,3,7,7,9,4,General Anxiety,30.0,1.57,129.4,2.2207,95.6,LOW
-user_094,30,8,5,6,7,4,0,Stress,26.7,0.92,157.2,2.2812,98.2,LOW
-user_095,30,5,6,6,10,3,3,Social Anxiety,33.3,1.15,168.6,2.2201,95.6,LOW
-user_096,30,8,2,11,3,6,2,Bipolar,36.7,1.14,155.6,2.0963,90.3,LOW
-user_097,30,10,3,7,4,6,0,Stress,33.3,0.95,141.5,2.2024,94.9,LOW
-user_098,30,4,7,5,7,7,1,Depression,23.3,1.23,155.7,2.2881,98.5,LOW
-user_099,30,5,7,5,4,9,4,General Anxiety,30.0,1.41,195.8,2.2602,97.3,LOW
+session_id,avg_exclusivity,high_echo_posts,total_posts,high_echo_pct,session_echo_risk
+session_000,1.92,4,30,13.3,LOW
+session_001,2.37,8,30,26.7,MEDIUM
+session_002,1.62,4,30,13.3,LOW
+session_003,2.15,7,30,23.3,LOW
+session_004,1.33,2,30,6.7,LOW
+session_005,2.12,3,30,10.0,LOW
+session_006,1.73,3,30,10.0,LOW
+session_007,1.66,3,30,10.0,LOW
+session_008,2.18,3,30,10.0,LOW
+session_009,2.28,3,30,10.0,MEDIUM
+session_010,1.39,1,30,3.3,LOW
+session_011,2.53,6,30,20.0,MEDIUM
+session_012,1.9,3,30,10.0,LOW
+session_013,1.76,3,30,10.0,LOW
+session_014,1.36,2,30,6.7,LOW
+session_015,2.02,2,30,6.7,LOW
+session_016,1.49,2,30,6.7,LOW
+session_017,2.0,4,30,13.3,LOW
+session_018,2.35,4,30,13.3,MEDIUM
+session_019,1.35,1,30,3.3,LOW
+session_020,2.05,5,30,16.7,LOW
+session_021,2.27,4,30,13.3,LOW
+session_022,1.68,2,30,6.7,LOW
+session_023,1.59,0,30,0.0,LOW
+session_024,2.0,3,30,10.0,LOW
+session_025,1.51,1,30,3.3,LOW
+session_026,2.76,2,30,6.7,MEDIUM
+session_027,2.37,3,30,10.0,MEDIUM
+session_028,1.3,1,30,3.3,LOW
+session_029,1.93,3,30,10.0,LOW
+session_030,2.0,3,30,10.0,LOW
+session_031,1.42,2,30,6.7,LOW
+session_032,1.61,4,30,13.3,LOW
+session_033,2.56,7,30,23.3,MEDIUM
+session_034,1.59,3,30,10.0,LOW
+session_035,1.77,6,30,20.0,LOW
+session_036,1.95,5,30,16.7,LOW
+session_037,1.87,3,30,10.0,LOW
+session_038,1.72,2,30,6.7,LOW
+session_039,2.0,5,30,16.7,LOW
+session_040,3.5,9,30,30.0,HIGH
+session_041,4.37,6,30,20.0,HIGH
+session_042,3.8,13,30,43.3,HIGH
+session_043,2.73,6,30,20.0,MEDIUM
+session_044,3.16,8,30,26.7,HIGH
+session_045,3.24,8,30,26.7,HIGH
+session_046,2.64,6,30,20.0,MEDIUM
+session_047,4.12,4,30,13.3,HIGH
+session_048,2.81,6,30,20.0,MEDIUM
+session_049,3.47,10,30,33.3,HIGH
+session_050,2.91,7,30,23.3,MEDIUM
+session_051,3.69,7,30,23.3,HIGH
+session_052,2.9,9,30,30.0,MEDIUM
+session_053,2.34,4,30,13.3,MEDIUM
+session_054,4.38,7,30,23.3,HIGH
+session_055,3.42,7,30,23.3,HIGH
+session_056,3.44,8,30,26.7,HIGH
+session_057,3.31,8,30,26.7,HIGH
+session_058,2.57,4,30,13.3,MEDIUM
+session_059,2.4,3,30,10.0,MEDIUM
+session_060,2.23,6,30,20.0,LOW
+session_061,3.12,9,30,30.0,MEDIUM
+session_062,1.96,4,30,13.3,LOW
+session_063,3.13,9,30,30.0,MEDIUM
+session_064,4.1,8,30,26.7,HIGH
+session_065,2.92,7,30,23.3,MEDIUM
+session_066,3.41,7,30,23.3,HIGH
+session_067,1.8,2,30,6.7,LOW
+session_068,3.49,10,30,33.3,HIGH
+session_069,3.97,10,30,33.3,HIGH
+session_070,5.04,7,30,23.3,HIGH
+session_071,3.47,11,30,36.7,HIGH
+session_072,3.03,8,30,26.7,MEDIUM
+session_073,2.34,4,30,13.3,MEDIUM
+session_074,3.93,10,30,33.3,HIGH
+session_075,2.28,6,30,20.0,MEDIUM
+session_076,4.5,6,30,20.0,HIGH
+session_077,2.25,4,30,13.3,LOW
+session_078,4.3,13,30,43.3,HIGH
+session_079,3.02,4,30,13.3,MEDIUM
+session_080,3.14,9,30,30.0,HIGH
+session_081,2.28,5,30,16.7,MEDIUM
+session_082,2.38,6,30,20.0,MEDIUM
+session_083,2.39,5,30,16.7,MEDIUM
+session_084,2.49,7,30,23.3,MEDIUM
+session_085,2.17,5,30,16.7,LOW
+session_086,3.45,10,30,33.3,HIGH
+session_087,3.45,7,30,23.3,HIGH
+session_088,2.44,9,30,30.0,MEDIUM
+session_089,4.29,9,30,30.0,HIGH
+session_090,2.02,4,30,13.3,LOW
+session_091,2.72,6,30,20.0,MEDIUM
+session_092,2.54,5,30,16.7,MEDIUM
+session_093,3.02,5,30,16.7,MEDIUM
+session_094,2.82,7,30,23.3,MEDIUM
+session_095,2.29,6,30,20.0,MEDIUM
+session_096,2.04,4,30,13.3,LOW
+session_097,2.07,3,30,10.0,LOW
+session_098,2.79,8,30,26.7,MEDIUM
+session_099,2.38,4,30,13.3,MEDIUM
+session_100,2.29,6,30,20.0,MEDIUM
+session_101,2.21,3,30,10.0,LOW
+session_102,3.26,6,30,20.0,HIGH
+session_103,2.29,5,30,16.7,MEDIUM
+session_104,2.21,4,30,13.3,LOW
+session_105,2.64,5,30,16.7,MEDIUM
+session_106,2.75,8,30,26.7,MEDIUM
+session_107,2.03,4,30,13.3,LOW
+session_108,2.87,7,30,23.3,MEDIUM
+session_109,4.22,10,30,33.3,HIGH
+session_110,2.62,6,30,20.0,MEDIUM
+session_111,2.02,5,30,16.7,LOW
+session_112,2.46,6,30,20.0,MEDIUM
+session_113,2.75,7,30,23.3,MEDIUM
+session_114,1.73,3,30,10.0,LOW
+session_115,2.94,8,30,26.7,MEDIUM
+session_116,4.14,10,30,33.3,HIGH
+session_117,2.55,7,30,23.3,MEDIUM
+session_118,3.76,9,30,30.0,HIGH
+session_119,1.73,3,30,10.0,LOW
+session_120,1.45,1,30,3.3,LOW
+session_121,1.77,2,30,6.7,LOW
+session_122,2.82,6,30,20.0,MEDIUM
+session_123,2.02,2,30,6.7,LOW
+session_124,1.83,1,30,3.3,LOW
+session_125,2.31,2,30,6.7,MEDIUM
+session_126,2.07,5,30,16.7,LOW
+session_127,1.61,2,30,6.7,LOW
+session_128,2.0,2,30,6.7,LOW
+session_129,2.1,3,30,10.0,LOW
+session_130,2.94,6,30,20.0,MEDIUM
+session_131,1.64,3,30,10.0,LOW
+session_132,2.22,2,30,6.7,LOW
+session_133,1.73,3,30,10.0,LOW
+session_134,1.36,0,30,0.0,LOW
+session_135,1.59,4,30,13.3,LOW
+session_136,3.17,5,30,16.7,HIGH
+session_137,1.49,2,30,6.7,LOW
+session_138,1.76,1,30,3.3,LOW
+session_139,2.84,4,30,13.3,MEDIUM
+session_140,0.86,0,30,0.0,LOW
+session_141,1.53,3,30,10.0,LOW
+session_142,1.37,1,30,3.3,LOW
+session_143,2.18,4,30,13.3,LOW
+session_144,1.83,3,30,10.0,LOW
+session_145,1.83,3,30,10.0,LOW
+session_146,1.48,2,30,6.7,LOW
+session_147,3.09,7,30,23.3,MEDIUM
+session_148,1.25,1,30,3.3,LOW
+session_149,2.52,6,30,20.0,MEDIUM
+session_150,1.31,1,30,3.3,LOW
+session_151,1.72,1,30,3.3,LOW
+session_152,1.69,3,30,10.0,LOW
+session_153,1.73,2,30,6.7,LOW
+session_154,1.63,3,30,10.0,LOW
+session_155,2.45,5,30,16.7,MEDIUM
+session_156,2.38,3,30,10.0,MEDIUM
+session_157,1.79,0,30,0.0,LOW
+session_158,2.45,3,30,10.0,MEDIUM
+session_159,1.94,2,30,6.7,LOW
+session_160,1.49,2,30,6.7,LOW
+session_161,0.93,2,30,6.7,LOW
+session_162,2.05,4,30,13.3,LOW
+session_163,1.68,2,30,6.7,LOW
+session_164,2.34,5,30,16.7,MEDIUM
+session_165,2.21,4,30,13.3,LOW
+session_166,1.48,1,30,3.3,LOW
+session_167,1.04,0,30,0.0,LOW
+session_168,2.51,7,30,23.3,MEDIUM
+session_169,2.17,4,30,13.3,LOW
+session_170,2.83,5,30,16.7,MEDIUM
+session_171,2.28,6,30,20.0,MEDIUM
+session_172,1.67,2,30,6.7,LOW
+session_173,1.45,2,30,6.7,LOW
+session_174,1.92,4,30,13.3,LOW
+session_175,1.87,3,30,10.0,LOW
+session_176,1.72,4,30,13.3,LOW
+session_177,1.62,3,30,10.0,LOW
+session_178,2.42,5,30,16.7,MEDIUM
+session_179,1.71,3,30,10.0,LOW
+session_180,1.81,4,30,13.3,LOW
+session_181,1.39,2,30,6.7,LOW
+session_182,2.56,3,30,10.0,MEDIUM
+session_183,2.21,7,30,23.3,LOW
+session_184,1.48,2,30,6.7,LOW
+session_185,1.37,1,30,3.3,LOW
+session_186,1.93,4,30,13.3,LOW
+session_187,1.54,3,30,10.0,LOW
+session_188,2.95,4,30,13.3,MEDIUM
+session_189,1.48,3,30,10.0,LOW
+session_190,2.36,5,30,16.7,MEDIUM
+session_191,1.7,4,30,13.3,LOW
+session_192,1.76,1,30,3.3,LOW
+session_193,1.42,2,30,6.7,LOW
+session_194,1.2,2,30,6.7,LOW
+session_195,1.87,4,30,13.3,LOW
+session_196,1.69,2,30,6.7,LOW
+session_197,2.35,5,30,16.7,MEDIUM

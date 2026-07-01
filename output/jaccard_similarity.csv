@@ -1,0 +1,11 @@
+category_a,category_b,shared_words,total_unique_words,jaccard_similarity,echo_boundary
+Stress,Social Anxiety,162,238,0.6807,WEAK
+Depression,Bipolar,164,236,0.6949,WEAK
+Depression,General Anxiety,164,236,0.6949,WEAK
+Stress,Depression,165,235,0.7021,WEAK
+Social Anxiety,General Anxiety,165,235,0.7021,WEAK
+Stress,Bipolar,168,232,0.7241,WEAK
+Stress,General Anxiety,169,231,0.7316,WEAK
+Bipolar,Social Anxiety,169,231,0.7316,WEAK
+Depression,Social Anxiety,172,228,0.7544,WEAK
+Bipolar,General Anxiety,173,227,0.7621,WEAK

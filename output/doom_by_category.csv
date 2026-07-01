@@ -1,6 +1,6 @@
 category_name,Avg_Doom_Score,Min_Doom_Score,Max_Doom_Score,Median_Doom,HIGH_Risk_Posts,MEDIUM_Risk_Posts,LOW_Risk_Posts,Total_Posts
-Bipolar,18.47,16.01,33.55,18.03,52,1032,101,1185
-Depression,24.31,20.0,63.77,23.89,800,402,0,1202
-General Anxiety,12.62,8.0,51.77,11.96,22,129,1037,1188
-Social Anxiety,14.57,12.0,62.03,14.03,16,226,959,1201
-Stress,2.23,0.0,35.05,1.04,4,5,1172,1181
+Bipolar,18.48,16.01,33.55,18.03,52,1028,101,1181
+Depression,24.32,20.0,63.77,23.89,799,399,0,1198
+General Anxiety,12.62,8.0,51.77,11.95,22,127,1033,1182
+Social Anxiety,14.57,12.0,62.03,14.03,16,225,958,1199
+Stress,2.23,0.0,35.05,1.04,4,5,1171,1180

@@ -1,11 +1,10 @@
 Metric,Value
-Total Users,100.0
-HIGH Risk Users,20.0
-MEDIUM Risk Users,30.0
-LOW Risk Users,50.0
-Avg Risk Score,43.6
-Double Risk Users,6.0
-In Echo Bubble,30.0
-Heavy Doom Users,10.0
-High Negativity Users,6.0
-Long Session Users,0.0
+Total Sessions,198.0
+HIGH Risk Sessions,40.0
+MEDIUM Risk Sessions,59.0
+LOW Risk Sessions,99.0
+Avg Combined Risk Score,39.9
+Double Risk Sessions,9.0
+Echo Bubble Sessions,18.0
+Heavy Doom Sessions,5.0
+Long Reading Sessions,1.0

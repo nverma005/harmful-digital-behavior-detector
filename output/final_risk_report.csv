@@ -1,101 +1,199 @@
-user_id,diversity_score,diversity_pct,echo_chamber_risk,dominant_category_name,dominant_pct,count_stress,count_depression,count_bipolar,count_social_anxiety,count_general_anxiety,avg_doom_score,high_doom_pct,est_read_minutes,total_words_read,avg_negativity,doom_scroll_risk,echo_risk_raw,doom_risk_raw,combined_risk_score,overall_risk,flag_pure_bubble,flag_heavy_doom,flag_double_risk,flag_long_session,flag_high_negativity,recommendation
-user_000,0.5608,24.2,HIGH,Stress,90.0,27,0,1,0,2,2.96,0.0,24.3,4869,0.58,LOW,75.8,0.0,30.32,LOW,1,0,0,0,0,Echo chamber detected: Diversify content sources. User reads mostly Stress content.
-user_001,0.5608,24.2,HIGH,Depression,90.0,2,27,0,1,0,22.25,63.3,32.3,6467,1.54,HIGH,75.8,88.04,83.14,HIGH,1,1,1,0,0,Critical: User is in a content bubble AND consuming high-distress content. Immediate intervention recommended.
-user_002,0.5608,24.2,HIGH,Bipolar,90.0,0,2,27,0,1,18.78,16.7,14.8,2950,1.29,LOW,75.8,72.2,73.64,HIGH,1,0,0,0,0,Echo chamber detected: Diversify content sources. User reads mostly Bipolar content.
-user_003,0.5608,24.2,HIGH,Social Anxiety,90.0,0,1,2,27,0,14.84,6.7,22.1,4429,0.86,LOW,75.8,54.22,62.85,HIGH,1,0,0,0,0,Echo chamber detected: Diversify content sources. User reads mostly Social Anxiety content.
-user_004,0.6275,27.0,HIGH,General Anxiety,90.0,1,0,1,1,27,12.34,0.0,27.3,5458,1.85,LOW,73.0,42.81,54.89,MEDIUM,1,0,0,0,0,Echo chamber detected: Diversify content sources. User reads mostly General Anxiety content.
-user_005,0.469,20.2,HIGH,Stress,90.0,27,0,3,0,0,4.02,0.0,22.9,4573,0.91,LOW,79.8,4.84,34.82,LOW,1,0,0,0,0,Echo chamber detected: Diversify content sources. User reads mostly Stress content.
-user_006,0.5608,24.2,HIGH,Depression,90.0,0,27,0,2,1,22.98,66.7,32.8,6570,1.57,HIGH,75.8,91.37,85.14,HIGH,1,1,1,0,0,Critical: User is in a content bubble AND consuming high-distress content. Immediate intervention recommended.
-user_007,0.5608,24.2,HIGH,Bipolar,90.0,0,2,27,0,1,19.81,6.7,23.7,4731,1.69,LOW,75.8,76.91,76.47,HIGH,1,0,0,0,0,Echo chamber detected: Diversify content sources. User reads mostly Bipolar content.
-user_008,0.5608,24.2,HIGH,Social Anxiety,90.0,2,0,1,27,0,13.91,0.0,22.4,4487,1.01,LOW,75.8,49.98,60.31,HIGH,1,0,0,0,0,Echo chamber detected: Diversify content sources. User reads mostly Social Anxiety content.
-user_009,0.6275,27.0,HIGH,General Anxiety,90.0,1,0,1,1,27,13.34,3.3,23.0,4609,2.5,LOW,73.0,47.38,57.63,HIGH,1,0,0,0,1,Echo chamber detected: Diversify content sources. User reads mostly General Anxiety content.
-user_010,0.6275,27.0,HIGH,Stress,90.0,27,1,1,1,0,4.29,0.0,19.9,3974,1.13,LOW,73.0,6.07,32.84,LOW,1,0,0,0,0,Echo chamber detected: Diversify content sources. User reads mostly Stress content.
-user_011,0.6275,27.0,HIGH,Depression,90.0,1,27,1,1,0,22.39,53.3,23.2,4649,1.5,HIGH,73.0,88.68,82.41,HIGH,1,1,1,0,0,Critical: User is in a content bubble AND consuming high-distress content. Immediate intervention recommended.
-user_012,0.6275,27.0,HIGH,Bipolar,90.0,1,0,27,1,1,17.28,0.0,25.2,5034,0.75,LOW,73.0,65.36,68.42,HIGH,1,0,0,0,0,Echo chamber detected: Diversify content sources. User reads mostly Bipolar content.
-user_013,0.469,20.2,HIGH,Social Anxiety,90.0,0,0,3,27,0,16.26,3.3,48.7,9741,1.21,LOW,79.8,60.7,68.34,HIGH,1,0,0,0,0,Echo chamber detected: Diversify content sources. User reads mostly Social Anxiety content.
-user_014,0.6275,27.0,HIGH,General Anxiety,90.0,1,1,0,1,27,12.81,0.0,31.4,6290,1.95,LOW,73.0,44.96,56.18,MEDIUM,1,0,0,0,0,Echo chamber detected: Diversify content sources. User reads mostly General Anxiety content.
-user_015,0.6275,27.0,HIGH,Stress,90.0,27,1,1,1,0,3.74,3.3,17.4,3473,0.87,LOW,73.0,3.56,31.34,LOW,1,0,0,0,0,Echo chamber detected: Diversify content sources. User reads mostly Stress content.
-user_016,0.5608,24.2,HIGH,Depression,90.0,1,27,0,0,2,22.83,70.0,29.5,5903,1.85,HIGH,75.8,90.69,84.73,HIGH,1,1,1,0,0,Critical: User is in a content bubble AND consuming high-distress content. Immediate intervention recommended.
-user_017,0.5608,24.2,HIGH,Bipolar,90.0,0,2,27,0,1,17.97,10.0,21.5,4294,0.69,LOW,75.8,68.51,71.43,HIGH,1,0,0,0,0,Echo chamber detected: Diversify content sources. User reads mostly Bipolar content.
-user_018,0.5608,24.2,HIGH,Social Anxiety,90.0,2,1,0,27,0,14.19,6.7,20.2,4035,1.14,LOW,75.8,51.26,61.08,HIGH,1,0,0,0,0,Echo chamber detected: Diversify content sources. User reads mostly Social Anxiety content.
-user_019,0.5608,24.2,HIGH,General Anxiety,90.0,1,2,0,0,27,12.51,3.3,23.3,4651,1.8,LOW,75.8,43.59,56.47,MEDIUM,1,0,0,0,0,Echo chamber detected: Diversify content sources. User reads mostly General Anxiety content.
-user_020,0.5608,24.2,HIGH,Stress,90.0,27,0,1,2,0,3.52,0.0,21.7,4336,0.81,LOW,75.8,2.56,31.86,LOW,1,0,0,0,0,Echo chamber detected: Diversify content sources. User reads mostly Stress content.
-user_021,0.6275,27.0,HIGH,Depression,90.0,1,27,0,1,1,22.8,50.0,24.8,4968,1.85,HIGH,73.0,90.55,83.53,HIGH,1,1,1,0,0,Critical: User is in a content bubble AND consuming high-distress content. Immediate intervention recommended.
-user_022,0.5608,24.2,HIGH,Bipolar,90.0,0,0,27,2,1,18.78,6.7,24.0,4793,1.4,LOW,75.8,72.2,73.64,HIGH,1,0,0,0,0,Echo chamber detected: Diversify content sources. User reads mostly Bipolar content.
-user_023,0.5608,24.2,HIGH,Social Anxiety,90.0,0,0,2,27,1,15.77,3.3,54.8,10961,0.96,LOW,75.8,58.47,65.4,HIGH,1,0,0,0,0,Echo chamber detected: Diversify content sources. User reads mostly Social Anxiety content.
-user_024,0.5608,24.2,HIGH,General Anxiety,90.0,0,1,2,0,27,13.37,0.0,21.1,4226,2.1,LOW,75.8,47.51,58.83,HIGH,1,0,0,0,1,Echo chamber detected: Diversify content sources. User reads mostly General Anxiety content.
-user_025,0.6275,27.0,HIGH,Stress,90.0,27,0,1,1,1,3.91,3.3,26.5,5292,1.01,LOW,73.0,4.34,31.8,LOW,1,0,0,0,0,Echo chamber detected: Diversify content sources. User reads mostly Stress content.
-user_026,0.6275,27.0,HIGH,Depression,90.0,1,27,1,1,0,24.87,76.7,21.2,4249,2.96,HIGH,73.0,100.0,89.2,HIGH,1,1,1,0,1,Critical: User is in a content bubble AND consuming high-distress content. Immediate intervention recommended.
-user_027,0.469,20.2,HIGH,Bipolar,90.0,3,0,27,0,0,16.52,3.3,23.0,4594,0.74,LOW,79.8,61.89,69.05,HIGH,1,0,0,0,0,Echo chamber detected: Diversify content sources. User reads mostly Bipolar content.
-user_028,0.5608,24.2,HIGH,Social Anxiety,90.0,2,1,0,27,0,13.8,3.3,27.3,5457,0.77,LOW,75.8,49.48,60.01,HIGH,1,0,0,0,0,Echo chamber detected: Diversify content sources. User reads mostly Social Anxiety content.
-user_029,0.469,20.2,HIGH,General Anxiety,90.0,3,0,0,0,27,11.0,0.0,36.4,7289,1.43,LOW,79.8,36.7,53.94,MEDIUM,1,0,0,0,0,Echo chamber detected: Diversify content sources. User reads mostly General Anxiety content.
-user_030,1.7261,74.3,MEDIUM,Stress,60.0,18,2,5,2,3,7.67,3.3,21.7,4348,0.74,LOW,25.700000000000003,21.5,23.18,LOW,0,0,0,0,0,Healthy browsing patterns detected. No intervention needed.
-user_031,1.701,73.3,MEDIUM,Depression,60.0,5,18,3,3,1,18.41,43.3,28.8,5768,1.32,HIGH,26.700000000000003,70.52,52.99,MEDIUM,0,1,0,0,0,Doom scroll risk: User consumes high-negativity content frequently. Consider content filters.
-user_032,1.7546,75.6,LOW,Bipolar,60.0,2,3,18,4,3,17.48,10.0,20.3,4056,1.57,LOW,24.400000000000006,66.27,49.52,MEDIUM,0,0,0,0,0,Moderate risk: Monitor browsing patterns. Mild content bias detected.
-user_033,1.6628,71.6,MEDIUM,Social Anxiety,60.0,3,2,6,18,1,15.37,6.7,17.1,3413,1.57,LOW,28.400000000000006,56.64,45.34,MEDIUM,0,0,0,0,0,Moderate risk: Monitor browsing patterns. Mild content bias detected.
-user_034,1.7383,74.9,MEDIUM,General Anxiety,60.0,4,2,4,2,18,12.71,6.7,15.2,3036,1.77,LOW,25.099999999999994,44.5,36.74,MEDIUM,0,0,0,0,0,Moderate risk: Monitor browsing patterns. Mild content bias detected.
-user_035,1.5928,68.6,MEDIUM,Stress,60.0,18,0,5,3,4,6.87,0.0,22.0,4393,0.66,LOW,31.400000000000006,17.85,23.27,LOW,0,0,0,0,0,Healthy browsing patterns detected. No intervention needed.
-user_036,1.7546,75.6,LOW,Depression,60.0,2,18,3,3,4,19.66,43.3,22.6,4514,1.7,HIGH,24.400000000000006,76.22,55.49,MEDIUM,0,1,0,0,0,Doom scroll risk: User consumes high-negativity content frequently. Consider content filters.
-user_037,1.7546,75.6,LOW,Bipolar,60.0,2,3,18,4,3,17.34,13.3,29.3,5856,1.31,LOW,24.400000000000006,65.63,49.14,MEDIUM,0,0,0,0,0,Moderate risk: Monitor browsing patterns. Mild content bias detected.
-user_038,1.7261,74.3,MEDIUM,Social Anxiety,60.0,3,2,2,18,5,14.08,3.3,27.1,5413,1.24,LOW,25.700000000000003,50.75,40.73,MEDIUM,0,0,0,0,0,Moderate risk: Monitor browsing patterns. Mild content bias detected.
-user_039,1.7261,74.3,MEDIUM,General Anxiety,60.0,2,3,5,2,18,14.11,10.0,29.0,5802,1.6,LOW,25.700000000000003,50.89,40.81,MEDIUM,0,0,0,0,0,Moderate risk: Monitor browsing patterns. Mild content bias detected.
-user_040,1.6846,72.6,MEDIUM,Stress,60.0,18,4,2,1,5,7.65,3.3,21.2,4249,0.81,LOW,27.400000000000006,21.41,23.81,LOW,0,0,0,0,0,Healthy browsing patterns detected. No intervention needed.
-user_041,1.7131,73.8,MEDIUM,Depression,60.0,1,18,4,3,4,20.14,43.3,22.3,4466,1.68,HIGH,26.200000000000003,78.41,57.53,MEDIUM,0,1,0,0,0,Doom scroll risk: User consumes high-negativity content frequently. Consider content filters.
-user_042,1.5546,67.0,MEDIUM,Bipolar,60.0,2,0,18,4,6,15.93,6.7,27.8,5554,1.22,LOW,33.0,59.2,48.72,MEDIUM,0,0,0,0,0,Moderate risk: Monitor browsing patterns. Mild content bias detected.
-user_043,1.7546,75.6,LOW,Social Anxiety,60.0,3,3,4,18,2,14.85,3.3,26.2,5237,1.17,LOW,24.400000000000006,54.27,42.32,MEDIUM,0,0,0,0,0,Moderate risk: Monitor browsing patterns. Mild content bias detected.
-user_044,1.7546,75.6,LOW,General Anxiety,60.0,3,3,4,2,18,14.41,10.0,20.3,4056,2.26,LOW,24.400000000000006,52.26,41.12,MEDIUM,0,0,0,0,1,Moderate risk: Monitor browsing patterns. Mild content bias detected.
-user_045,1.7131,73.8,MEDIUM,Stress,60.0,18,1,4,4,3,7.97,6.7,18.9,3777,1.2,LOW,26.200000000000003,22.87,24.2,LOW,0,0,0,0,0,Healthy browsing patterns detected. No intervention needed.
-user_046,1.701,73.3,MEDIUM,Depression,60.0,5,18,3,3,1,19.01,50.0,32.4,6473,1.59,HIGH,26.700000000000003,73.25,54.63,MEDIUM,0,1,0,0,0,Doom scroll risk: User consumes high-negativity content frequently. Consider content filters.
-user_047,1.7546,75.6,LOW,Bipolar,60.0,3,4,18,2,3,17.21,16.7,15.4,3087,1.59,LOW,24.400000000000006,65.04,48.78,MEDIUM,0,0,0,0,0,Moderate risk: Monitor browsing patterns. Mild content bias detected.
-user_048,1.7261,74.3,MEDIUM,Social Anxiety,60.0,5,3,2,18,2,13.56,10.0,27.2,5447,1.02,LOW,25.700000000000003,48.38,39.31,MEDIUM,0,0,0,0,0,Moderate risk: Monitor browsing patterns. Mild content bias detected.
-user_049,1.7131,73.8,MEDIUM,General Anxiety,60.0,4,1,4,3,18,12.54,6.7,23.9,4775,1.65,LOW,26.200000000000003,43.72,36.71,MEDIUM,0,0,0,0,0,Moderate risk: Monitor browsing patterns. Mild content bias detected.
-user_050,2.3139,99.7,LOW,Stress,23.3,7,6,6,6,5,13.46,10.0,25.0,4992,0.93,LOW,0.29999999999999716,47.92,28.87,LOW,0,0,0,0,0,Healthy browsing patterns detected. No intervention needed.
-user_051,2.1853,94.1,LOW,Social Anxiety,30.0,6,8,5,9,2,15.86,30.0,27.6,5510,1.56,MEDIUM,5.900000000000006,58.88,37.69,MEDIUM,0,0,0,0,0,Moderate risk: Monitor browsing patterns. Mild content bias detected.
-user_052,1.998,86.0,LOW,Bipolar,43.3,2,6,13,7,2,16.76,16.7,20.6,4129,1.0,LOW,14.0,62.98,43.39,MEDIUM,0,0,0,0,0,Moderate risk: Monitor browsing patterns. Mild content bias detected.
-user_053,2.2323,96.1,LOW,Bipolar,33.3,4,6,10,4,6,15.63,13.3,19.8,3950,1.37,LOW,3.9000000000000057,57.83,36.26,LOW,0,0,0,0,0,Healthy browsing patterns detected. No intervention needed.
-user_054,2.1982,94.7,LOW,General Anxiety,26.7,8,2,5,7,8,12.11,3.3,20.9,4184,1.39,LOW,5.299999999999997,41.76,27.18,LOW,0,0,0,0,0,Healthy browsing patterns detected. No intervention needed.
-user_055,2.2267,95.9,LOW,Social Anxiety,26.7,4,3,8,8,7,14.48,6.7,17.5,3508,1.44,LOW,4.099999999999994,52.58,33.19,LOW,0,0,0,0,0,Healthy browsing patterns detected. No intervention needed.
-user_056,2.2881,98.5,LOW,Bipolar,23.3,4,7,7,5,7,15.4,16.7,24.1,4825,1.3,LOW,1.5,56.78,34.67,LOW,0,0,0,0,0,Healthy browsing patterns detected. No intervention needed.
-user_057,2.2683,97.7,LOW,Bipolar,30.0,6,6,9,5,4,15.24,16.7,22.6,4529,1.47,LOW,2.299999999999997,56.05,34.55,LOW,0,0,0,0,0,Healthy browsing patterns detected. No intervention needed.
-user_058,2.2602,97.3,LOW,Social Anxiety,30.0,5,4,7,9,5,14.3,13.3,18.8,3757,1.31,LOW,2.700000000000003,51.76,32.14,LOW,0,0,0,0,0,Healthy browsing patterns detected. No intervention needed.
-user_059,2.2812,98.2,LOW,Social Anxiety,26.7,5,7,4,8,6,14.45,13.3,18.6,3711,1.25,LOW,1.7999999999999972,52.44,32.18,LOW,0,0,0,0,0,Healthy browsing patterns detected. No intervention needed.
-user_060,2.2138,95.3,LOW,General Anxiety,30.0,8,3,4,6,9,12.13,6.7,15.5,3093,1.51,LOW,4.700000000000003,41.85,26.99,LOW,0,0,0,0,0,Healthy browsing patterns detected. No intervention needed.
-user_061,2.1793,93.9,LOW,Social Anxiety,36.7,6,4,6,11,3,15.42,13.3,22.6,4527,2.02,LOW,6.099999999999994,56.87,36.56,LOW,0,0,0,0,1,Healthy browsing patterns detected. No intervention needed.
-user_062,2.189,94.3,LOW,Bipolar,36.7,3,5,11,6,5,15.99,13.3,25.6,5113,1.23,LOW,5.700000000000003,59.47,37.96,MEDIUM,0,0,0,0,0,Moderate risk: Monitor browsing patterns. Mild content bias detected.
-user_063,2.1345,91.9,LOW,Bipolar,36.7,8,3,11,5,3,13.26,3.3,24.1,4827,0.99,LOW,8.099999999999994,47.01,31.45,LOW,0,0,0,0,0,Healthy browsing patterns detected. No intervention needed.
-user_064,2.1042,90.6,LOW,Depression,43.3,4,13,5,3,5,17.97,36.7,20.1,4026,1.93,HIGH,9.400000000000006,68.51,44.87,MEDIUM,0,0,0,0,0,Moderate risk: Monitor browsing patterns. Mild content bias detected.
-user_065,2.3139,99.7,LOW,Stress,23.3,7,6,6,6,5,13.27,10.0,22.9,4572,0.87,LOW,0.29999999999999716,47.06,28.36,LOW,0,0,0,0,0,Healthy browsing patterns detected. No intervention needed.
-user_066,2.2505,96.9,LOW,General Anxiety,30.0,6,7,4,4,9,15.15,13.3,22.3,4456,2.03,LOW,3.0999999999999943,55.64,34.62,LOW,0,0,0,0,1,Healthy browsing patterns detected. No intervention needed.
-user_067,2.2513,97.0,LOW,General Anxiety,26.7,5,7,7,3,8,16.18,20.0,27.5,5496,1.98,MEDIUM,3.0,60.34,37.4,MEDIUM,0,0,0,0,0,Moderate risk: Monitor browsing patterns. Mild content bias detected.
-user_068,2.2909,98.7,LOW,Stress,26.7,8,5,5,5,7,12.9,16.7,26.4,5273,1.19,LOW,1.2999999999999972,45.37,27.74,LOW,0,0,0,0,0,Healthy browsing patterns detected. No intervention needed.
-user_069,2.3058,99.3,LOW,Social Anxiety,23.3,5,6,5,7,7,13.96,13.3,21.9,4385,1.05,LOW,0.7000000000000028,50.21,30.41,LOW,0,0,0,0,0,Healthy browsing patterns detected. No intervention needed.
-user_070,2.2024,94.9,LOW,General Anxiety,33.3,4,3,6,7,10,14.33,13.3,55.1,11027,0.97,LOW,5.099999999999994,51.89,33.17,LOW,0,0,0,0,0,Healthy browsing patterns detected. No intervention needed.
-user_071,2.3139,99.7,LOW,Depression,23.3,5,7,6,6,6,15.49,20.0,25.9,5178,1.54,MEDIUM,0.29999999999999716,57.19,34.43,LOW,0,0,0,0,0,Healthy browsing patterns detected. No intervention needed.
-user_072,2.2384,96.4,LOW,Bipolar,30.0,3,5,9,6,7,16.33,16.7,25.6,5124,1.72,LOW,3.5999999999999943,61.02,38.05,MEDIUM,0,0,0,0,0,Moderate risk: Monitor browsing patterns. Mild content bias detected.
-user_073,2.1839,94.1,LOW,Depression,30.0,3,9,8,7,3,17.19,23.3,29.8,5956,1.29,MEDIUM,5.900000000000006,64.95,41.33,MEDIUM,0,0,0,0,0,Moderate risk: Monitor browsing patterns. Mild content bias detected.
-user_074,2.2594,97.3,LOW,Bipolar,26.7,6,3,8,7,6,13.7,13.3,19.6,3930,1.33,LOW,2.700000000000003,49.02,30.49,LOW,0,0,0,0,0,Healthy browsing patterns detected. No intervention needed.
-user_075,2.2234,95.8,LOW,Depression,30.0,8,9,5,3,5,14.64,13.3,19.0,3802,1.57,LOW,4.200000000000003,53.31,33.67,LOW,0,0,0,0,0,Healthy browsing patterns detected. No intervention needed.
-user_076,2.1982,94.7,LOW,Bipolar,26.7,8,2,8,5,7,11.57,0.0,18.4,3676,0.83,LOW,5.299999999999997,39.3,25.7,LOW,0,0,0,0,0,Healthy browsing patterns detected. No intervention needed.
-user_077,2.2002,94.8,LOW,Stress,30.0,9,6,7,2,6,13.96,13.3,22.0,4390,1.74,LOW,5.200000000000003,50.21,32.21,LOW,0,0,0,0,0,Healthy browsing patterns detected. No intervention needed.
-user_078,2.2513,97.0,LOW,Social Anxiety,26.7,5,7,7,8,3,15.19,10.0,29.2,5830,1.0,LOW,3.0,55.82,34.69,LOW,0,0,0,0,0,Healthy browsing patterns detected. No intervention needed.
-user_079,2.1438,92.3,LOW,General Anxiety,40.0,3,4,6,5,12,14.93,10.0,26.6,5327,1.66,LOW,7.700000000000003,54.63,35.86,LOW,0,0,0,0,0,Healthy browsing patterns detected. No intervention needed.
-user_080,2.2594,97.3,LOW,Bipolar,26.7,6,6,8,3,7,15.4,23.3,20.2,4039,1.91,MEDIUM,2.700000000000003,56.78,35.15,LOW,0,0,0,0,0,Healthy browsing patterns detected. No intervention needed.
-user_081,2.2812,98.2,LOW,Bipolar,26.7,4,7,8,5,6,16.15,23.3,22.4,4473,1.61,MEDIUM,1.7999999999999972,60.2,36.84,MEDIUM,0,0,0,0,0,Moderate risk: Monitor browsing patterns. Mild content bias detected.
-user_082,2.1247,91.5,LOW,Bipolar,30.0,7,2,9,3,9,12.7,6.7,22.8,4557,1.23,LOW,8.5,44.45,30.07,LOW,0,0,0,0,0,Healthy browsing patterns detected. No intervention needed.
-user_083,2.2812,98.2,LOW,Stress,26.7,8,4,5,7,6,13.18,16.7,29.5,5900,1.36,LOW,1.7999999999999972,46.65,28.71,LOW,0,0,0,0,0,Healthy browsing patterns detected. No intervention needed.
-user_084,2.1025,90.5,LOW,Depression,33.3,1,10,7,7,5,17.55,23.3,20.1,4018,1.31,MEDIUM,9.5,66.59,43.75,MEDIUM,0,0,0,0,0,Moderate risk: Monitor browsing patterns. Mild content bias detected.
-user_085,2.2812,98.2,LOW,Depression,26.7,6,8,4,5,7,14.82,20.0,19.2,3838,1.6,MEDIUM,1.7999999999999972,54.13,33.2,LOW,0,0,0,0,0,Healthy browsing patterns detected. No intervention needed.
-user_086,2.3139,99.7,LOW,Stress,23.3,7,5,6,6,6,14.03,16.7,20.4,4073,1.58,LOW,0.29999999999999716,50.52,30.43,LOW,0,0,0,0,0,Healthy browsing patterns detected. No intervention needed.
-user_087,2.3058,99.3,LOW,Bipolar,23.3,7,6,7,5,5,14.15,16.7,24.0,4795,1.27,LOW,0.7000000000000028,51.07,30.92,LOW,0,0,0,0,0,Healthy browsing patterns detected. No intervention needed.
-user_088,2.2505,96.9,LOW,Bipolar,30.0,4,7,9,6,4,14.87,6.7,20.6,4124,0.68,LOW,3.0999999999999943,54.36,33.86,LOW,0,0,0,0,0,Healthy browsing patterns detected. No intervention needed.
-user_089,2.1438,92.3,LOW,Depression,40.0,6,12,3,4,5,15.48,20.0,17.4,3481,1.33,MEDIUM,7.700000000000003,57.14,37.36,MEDIUM,0,0,0,0,0,Moderate risk: Monitor browsing patterns. Mild content bias detected.
-user_090,2.2108,95.2,LOW,Bipolar,36.7,5,5,11,5,4,14.47,16.7,27.3,5462,0.7,LOW,4.799999999999997,52.53,33.44,LOW,0,0,0,0,0,Healthy browsing patterns detected. No intervention needed.
-user_091,2.2131,95.3,LOW,Depression,26.7,7,8,2,6,7,14.33,13.3,17.4,3486,1.74,LOW,4.700000000000003,51.89,33.01,LOW,0,0,0,0,0,Healthy browsing patterns detected. No intervention needed.
-user_092,2.2909,98.7,LOW,Bipolar,26.7,5,5,8,5,7,15.57,16.7,21.9,4372,1.9,LOW,1.2999999999999972,57.55,35.05,LOW,0,0,0,0,0,Healthy browsing patterns detected. No intervention needed.
-user_093,2.2207,95.6,LOW,General Anxiety,30.0,4,3,7,7,9,14.38,3.3,19.4,3882,1.57,LOW,4.400000000000006,52.12,33.03,LOW,0,0,0,0,0,Healthy browsing patterns detected. No intervention needed.
-user_094,2.2812,98.2,LOW,Stress,26.7,8,5,6,7,4,12.85,10.0,23.6,4717,0.92,LOW,1.7999999999999972,45.14,27.8,LOW,0,0,0,0,0,Healthy browsing patterns detected. No intervention needed.
-user_095,2.2201,95.6,LOW,Social Anxiety,33.3,5,6,6,10,3,14.92,10.0,25.3,5059,1.15,LOW,4.400000000000006,54.59,34.51,LOW,0,0,0,0,0,Healthy browsing patterns detected. No intervention needed.
-user_096,2.0963,90.3,LOW,Bipolar,36.7,8,2,11,3,6,12.83,6.7,23.3,4668,1.14,LOW,9.700000000000003,45.05,30.91,LOW,0,0,0,0,0,Healthy browsing patterns detected. No intervention needed.
-user_097,2.2024,94.9,LOW,Stress,33.3,10,3,7,4,6,11.35,6.7,21.2,4244,0.95,LOW,5.099999999999994,38.29,25.01,LOW,0,0,0,0,0,Healthy browsing patterns detected. No intervention needed.
-user_098,2.2881,98.5,LOW,Depression,23.3,4,7,5,7,7,15.0,10.0,23.4,4670,1.23,LOW,1.5,54.95,33.57,LOW,0,0,0,0,0,Healthy browsing patterns detected. No intervention needed.
-user_099,2.2602,97.3,LOW,General Anxiety,30.0,5,7,5,4,9,14.85,16.7,29.4,5873,1.41,LOW,2.700000000000003,54.27,33.64,LOW,0,0,0,0,0,Healthy browsing patterns detected. No intervention needed.
+session_id,avg_exclusivity,high_echo_pct,session_echo_risk,avg_doom_score,high_doom_pct,est_read_minutes,total_words_read,doom_scroll_risk,echo_risk_raw,doom_risk_raw,combined_risk_score,overall_risk,flag_pure_bubble,flag_heavy_doom,flag_double_risk,flag_long_session,flag_high_doom_concentration,recommendation
+session_000,1.92,13.3,LOW,11.84,23.3,22.0,4409,HIGH,25.36,12.96,17.92,LOW,0,0,0,0,0,"Low risk: Session shows balanced, diverse content consumption."
+session_001,2.37,26.7,MEDIUM,13.53,13.3,20.9,4180,LOW,36.12,32.34,33.85,LOW,0,0,0,0,0,"Low risk: Session shows balanced, diverse content consumption."
+session_002,1.62,13.3,LOW,14.18,16.7,23.3,4651,MEDIUM,18.18,39.79,31.15,LOW,0,0,0,0,0,"Low risk: Session shows balanced, diverse content consumption."
+session_003,2.15,23.3,LOW,11.26,10.0,26.8,5358,LOW,30.86,6.31,16.13,LOW,0,0,0,0,0,"Low risk: Session shows balanced, diverse content consumption."
+session_004,1.33,6.7,LOW,14.05,10.0,21.6,4329,LOW,11.24,38.3,27.48,LOW,0,0,0,0,0,"Low risk: Session shows balanced, diverse content consumption."
+session_005,2.12,10.0,LOW,14.4,10.0,17.9,3577,LOW,30.14,42.32,37.45,LOW,0,0,0,0,0,"Low risk: Session shows balanced, diverse content consumption."
+session_006,1.73,10.0,LOW,12.75,6.7,18.3,3663,LOW,20.81,23.39,22.36,LOW,0,0,0,0,0,"Low risk: Session shows balanced, diverse content consumption."
+session_007,1.66,10.0,LOW,15.7,10.0,24.7,4949,MEDIUM,19.14,57.22,41.99,MEDIUM,0,0,0,0,1,Moderate risk: Mild content concentration detected. Worth monitoring.
+session_008,2.18,10.0,LOW,16.28,23.3,21.6,4323,HIGH,31.58,63.88,50.96,MEDIUM,0,0,0,0,1,Moderate risk: Mild content concentration detected. Worth monitoring.
+session_009,2.28,10.0,MEDIUM,17.69,13.3,54.8,10965,HIGH,33.97,80.05,61.62,HIGH,0,0,0,1,1,"Low risk: Session shows balanced, diverse content consumption."
+session_010,1.39,3.3,LOW,12.74,10.0,20.1,4023,LOW,12.68,23.28,19.04,LOW,0,0,0,0,0,"Low risk: Session shows balanced, diverse content consumption."
+session_011,2.53,20.0,MEDIUM,17.33,16.7,27.0,5404,HIGH,39.95,75.92,61.53,HIGH,0,0,0,0,1,"Low risk: Session shows balanced, diverse content consumption."
+session_012,1.9,10.0,LOW,14.2,10.0,22.0,4393,LOW,24.88,40.02,33.96,LOW,0,0,0,0,0,"Low risk: Session shows balanced, diverse content consumption."
+session_013,1.76,10.0,LOW,13.26,16.7,15.8,3167,MEDIUM,21.53,29.24,26.16,LOW,0,0,0,0,0,"Low risk: Session shows balanced, diverse content consumption."
+session_014,1.36,6.7,LOW,15.44,23.3,30.0,6005,HIGH,11.96,54.24,37.33,LOW,0,0,0,0,0,"Low risk: Session shows balanced, diverse content consumption."
+session_015,2.02,6.7,LOW,16.71,20.0,28.4,5680,HIGH,27.75,68.81,52.39,HIGH,0,0,0,0,1,"Low risk: Session shows balanced, diverse content consumption."
+session_016,1.49,6.7,LOW,15.18,30.0,27.4,5483,HIGH,15.07,51.26,36.78,LOW,0,1,0,0,0,Doom scroll risk: High proportion of distressing content in this session.
+session_017,2.0,13.3,LOW,14.13,6.7,22.5,4505,LOW,27.27,39.22,34.44,LOW,0,0,0,0,0,"Low risk: Session shows balanced, diverse content consumption."
+session_018,2.35,13.3,MEDIUM,13.73,16.7,21.8,4358,MEDIUM,35.65,34.63,35.04,LOW,0,0,0,0,0,"Low risk: Session shows balanced, diverse content consumption."
+session_019,1.35,3.3,LOW,14.18,20.0,21.8,4370,MEDIUM,11.72,39.79,28.56,LOW,0,0,0,0,0,"Low risk: Session shows balanced, diverse content consumption."
+session_020,2.05,16.7,LOW,13.23,16.7,27.4,5487,MEDIUM,28.47,28.9,28.73,LOW,0,0,0,0,0,"Low risk: Session shows balanced, diverse content consumption."
+session_021,2.27,13.3,LOW,14.04,16.7,28.9,5773,MEDIUM,33.73,38.19,36.41,LOW,0,0,0,0,0,"Low risk: Session shows balanced, diverse content consumption."
+session_022,1.68,6.7,LOW,13.99,16.7,22.3,4466,MEDIUM,19.62,37.61,30.41,LOW,0,0,0,0,0,"Low risk: Session shows balanced, diverse content consumption."
+session_023,1.59,0.0,LOW,13.27,13.3,18.4,3676,LOW,17.46,29.36,24.6,LOW,0,0,0,0,0,"Low risk: Session shows balanced, diverse content consumption."
+session_024,2.0,10.0,LOW,14.52,13.3,28.7,5732,LOW,27.27,43.69,37.12,LOW,0,0,0,0,0,"Low risk: Session shows balanced, diverse content consumption."
+session_025,1.51,3.3,LOW,15.69,23.3,23.9,4775,HIGH,15.55,57.11,40.49,MEDIUM,0,0,0,0,1,Moderate risk: Mild content concentration detected. Worth monitoring.
+session_026,2.76,6.7,MEDIUM,15.88,33.3,20.1,4023,HIGH,45.45,59.29,53.75,HIGH,0,1,0,0,1,Doom scroll risk: High proportion of distressing content in this session.
+session_027,2.37,10.0,MEDIUM,15.63,16.7,22.6,4519,MEDIUM,36.12,56.42,48.3,MEDIUM,0,0,0,0,1,Moderate risk: Mild content concentration detected. Worth monitoring.
+session_028,1.3,3.3,LOW,14.99,10.0,25.5,5099,MEDIUM,10.53,49.08,33.66,LOW,0,0,0,0,0,"Low risk: Session shows balanced, diverse content consumption."
+session_029,1.93,10.0,LOW,16.88,26.7,34.4,6881,HIGH,25.6,70.76,52.7,HIGH,0,0,0,0,1,"Low risk: Session shows balanced, diverse content consumption."
+session_030,2.0,10.0,LOW,10.71,6.7,14.3,2863,LOW,27.27,0.0,10.91,LOW,0,0,0,0,0,"Low risk: Session shows balanced, diverse content consumption."
+session_031,1.42,6.7,LOW,12.17,6.7,17.0,3394,LOW,13.4,16.74,15.4,LOW,0,0,0,0,0,"Low risk: Session shows balanced, diverse content consumption."
+session_032,1.61,13.3,LOW,15.19,26.7,24.2,4831,HIGH,17.94,51.38,38.0,LOW,0,0,0,0,0,"Low risk: Session shows balanced, diverse content consumption."
+session_033,2.56,23.3,MEDIUM,14.83,20.0,29.1,5816,MEDIUM,40.67,47.25,44.62,MEDIUM,0,0,0,0,0,Moderate risk: Mild content concentration detected. Worth monitoring.
+session_034,1.59,10.0,LOW,14.33,23.3,22.4,4479,HIGH,17.46,41.51,31.89,LOW,0,0,0,0,0,"Low risk: Session shows balanced, diverse content consumption."
+session_035,1.77,20.0,LOW,16.76,23.3,24.8,4963,HIGH,21.77,69.38,50.34,MEDIUM,0,0,0,0,1,Moderate risk: Mild content concentration detected. Worth monitoring.
+session_036,1.95,16.7,LOW,16.81,23.3,25.5,5093,HIGH,26.08,69.95,52.4,HIGH,0,0,0,0,1,"Low risk: Session shows balanced, diverse content consumption."
+session_037,1.87,10.0,LOW,14.86,23.3,27.7,5538,HIGH,24.16,47.59,38.22,LOW,0,0,0,0,0,"Low risk: Session shows balanced, diverse content consumption."
+session_038,1.72,6.7,LOW,14.02,10.0,23.4,4690,LOW,20.57,37.96,31.0,LOW,0,0,0,0,0,"Low risk: Session shows balanced, diverse content consumption."
+session_039,2.0,16.7,LOW,17.07,26.7,22.3,4463,HIGH,27.27,72.94,54.67,HIGH,0,0,0,0,1,"Low risk: Session shows balanced, diverse content consumption."
+session_040,3.5,30.0,HIGH,14.34,10.0,22.1,4429,LOW,63.16,41.63,50.24,MEDIUM,1,0,0,0,0,Echo chamber risk: Session vocabulary heavily concentrated in one community.
+session_041,4.37,20.0,HIGH,13.56,10.0,24.3,4852,LOW,83.97,32.68,53.2,HIGH,0,0,0,0,0,"Low risk: Session shows balanced, diverse content consumption."
+session_042,3.8,43.3,HIGH,14.11,10.0,23.0,4607,LOW,70.33,38.99,51.53,MEDIUM,1,0,0,0,0,Echo chamber risk: Session vocabulary heavily concentrated in one community.
+session_043,2.73,20.0,MEDIUM,14.03,6.7,26.6,5318,LOW,44.74,38.07,40.74,MEDIUM,0,0,0,0,0,Moderate risk: Mild content concentration detected. Worth monitoring.
+session_044,3.16,26.7,HIGH,14.45,13.3,19.5,3899,LOW,55.02,42.89,47.74,MEDIUM,0,0,0,0,0,Moderate risk: Mild content concentration detected. Worth monitoring.
+session_045,3.24,26.7,HIGH,14.17,13.3,28.8,5753,LOW,56.94,39.68,46.58,MEDIUM,0,0,0,0,0,Moderate risk: Mild content concentration detected. Worth monitoring.
+session_046,2.64,20.0,MEDIUM,14.14,16.7,19.4,3886,MEDIUM,42.58,39.33,40.63,MEDIUM,0,0,0,0,0,Moderate risk: Mild content concentration detected. Worth monitoring.
+session_047,4.12,13.3,HIGH,16.31,23.3,18.3,3662,HIGH,77.99,64.22,69.73,HIGH,0,0,1,0,1,Critical: Session shows both echo chamber and high-distress content patterns.
+session_048,2.81,20.0,MEDIUM,12.16,10.0,22.2,4439,LOW,46.65,16.63,28.64,LOW,0,0,0,0,0,"Low risk: Session shows balanced, diverse content consumption."
+session_049,3.47,33.3,HIGH,13.06,10.0,24.7,4942,LOW,62.44,26.95,41.15,MEDIUM,1,0,0,0,0,Echo chamber risk: Session vocabulary heavily concentrated in one community.
+session_050,2.91,23.3,MEDIUM,14.1,13.3,19.8,3952,LOW,49.04,38.88,42.94,MEDIUM,0,0,0,0,0,Moderate risk: Mild content concentration detected. Worth monitoring.
+session_051,3.69,23.3,HIGH,16.91,23.3,27.8,5551,HIGH,67.7,71.1,69.74,HIGH,0,0,1,0,1,Critical: Session shows both echo chamber and high-distress content patterns.
+session_052,2.9,30.0,MEDIUM,15.47,13.3,25.3,5052,MEDIUM,48.8,54.59,52.27,HIGH,1,0,0,0,0,Echo chamber risk: Session vocabulary heavily concentrated in one community.
+session_053,2.34,13.3,MEDIUM,12.79,13.3,19.6,3910,LOW,35.41,23.85,28.47,LOW,0,0,0,0,0,"Low risk: Session shows balanced, diverse content consumption."
+session_054,4.38,23.3,HIGH,16.68,20.0,23.3,4655,HIGH,84.21,68.46,74.76,HIGH,0,0,1,0,1,Critical: Session shows both echo chamber and high-distress content patterns.
+session_055,3.42,23.3,HIGH,12.31,10.0,16.7,3336,LOW,61.24,18.35,35.51,LOW,0,0,0,0,0,"Low risk: Session shows balanced, diverse content consumption."
+session_056,3.44,26.7,HIGH,15.22,16.7,19.6,3923,MEDIUM,61.72,51.72,55.72,HIGH,0,0,0,0,0,"Low risk: Session shows balanced, diverse content consumption."
+session_057,3.31,26.7,HIGH,15.25,30.0,18.4,3680,HIGH,58.61,52.06,54.68,HIGH,0,1,1,0,0,Critical: Session shows both echo chamber and high-distress content patterns.
+session_058,2.57,13.3,MEDIUM,16.46,23.3,25.5,5102,HIGH,40.91,65.94,55.93,HIGH,0,0,0,0,1,"Low risk: Session shows balanced, diverse content consumption."
+session_059,2.4,10.0,MEDIUM,13.54,10.0,11.4,2281,LOW,36.84,32.45,34.21,LOW,0,0,0,0,0,"Low risk: Session shows balanced, diverse content consumption."
+session_060,2.23,20.0,LOW,16.11,16.7,32.7,6545,MEDIUM,32.78,61.93,50.27,MEDIUM,0,0,0,0,1,Moderate risk: Mild content concentration detected. Worth monitoring.
+session_061,3.12,30.0,MEDIUM,14.76,23.3,26.8,5368,HIGH,54.07,46.44,49.49,MEDIUM,1,0,0,0,0,Echo chamber risk: Session vocabulary heavily concentrated in one community.
+session_062,1.96,13.3,LOW,14.9,16.7,20.8,4161,MEDIUM,26.32,48.05,39.36,MEDIUM,0,0,0,0,0,Moderate risk: Mild content concentration detected. Worth monitoring.
+session_063,3.13,30.0,MEDIUM,16.7,23.3,25.0,5005,HIGH,54.31,68.69,62.94,HIGH,1,0,0,0,1,Echo chamber risk: Session vocabulary heavily concentrated in one community.
+session_064,4.1,26.7,HIGH,14.9,13.3,23.6,4728,MEDIUM,77.51,48.05,59.83,HIGH,0,0,0,0,0,"Low risk: Session shows balanced, diverse content consumption."
+session_065,2.92,23.3,MEDIUM,12.0,3.3,22.8,4556,LOW,49.28,14.79,28.59,LOW,0,0,0,0,0,"Low risk: Session shows balanced, diverse content consumption."
+session_066,3.41,23.3,HIGH,15.25,30.0,28.5,5700,HIGH,61.0,52.06,55.64,HIGH,0,1,1,0,0,Critical: Session shows both echo chamber and high-distress content patterns.
+session_067,1.8,6.7,LOW,14.72,10.0,26.2,5232,MEDIUM,22.49,45.99,36.59,LOW,0,0,0,0,0,"Low risk: Session shows balanced, diverse content consumption."
+session_068,3.49,33.3,HIGH,13.75,20.0,25.7,5147,MEDIUM,62.92,34.86,46.08,MEDIUM,1,0,0,0,0,Echo chamber risk: Session vocabulary heavily concentrated in one community.
+session_069,3.97,33.3,HIGH,17.06,23.3,19.7,3940,HIGH,74.4,72.82,73.45,HIGH,1,0,1,0,1,Critical: Session shows both echo chamber and high-distress content patterns.
+session_070,5.04,23.3,HIGH,14.44,16.7,31.0,6191,MEDIUM,100.0,42.78,65.67,HIGH,0,0,0,0,0,"Low risk: Session shows balanced, diverse content consumption."
+session_071,3.47,36.7,HIGH,17.65,16.7,17.8,3553,HIGH,62.44,79.59,72.73,HIGH,1,0,1,0,1,Critical: Session shows both echo chamber and high-distress content patterns.
+session_072,3.03,26.7,MEDIUM,15.71,16.7,23.5,4704,MEDIUM,51.91,57.34,55.17,HIGH,0,0,0,0,1,"Low risk: Session shows balanced, diverse content consumption."
+session_073,2.34,13.3,MEDIUM,12.38,6.7,21.1,4228,LOW,35.41,19.15,25.65,LOW,0,0,0,0,0,"Low risk: Session shows balanced, diverse content consumption."
+session_074,3.93,33.3,HIGH,15.69,13.3,28.8,5764,MEDIUM,73.44,57.11,63.64,HIGH,1,0,0,0,1,Echo chamber risk: Session vocabulary heavily concentrated in one community.
+session_075,2.28,20.0,MEDIUM,15.04,13.3,17.7,3538,MEDIUM,33.97,49.66,43.38,MEDIUM,0,0,0,0,0,Moderate risk: Mild content concentration detected. Worth monitoring.
+session_076,4.5,20.0,HIGH,12.49,10.0,20.8,4150,LOW,87.08,20.41,47.08,MEDIUM,0,0,0,0,0,Moderate risk: Mild content concentration detected. Worth monitoring.
+session_077,2.25,13.3,LOW,13.52,13.3,19.4,3885,LOW,33.25,32.22,32.63,LOW,0,0,0,0,0,"Low risk: Session shows balanced, diverse content consumption."
+session_078,4.3,43.3,HIGH,12.64,13.3,22.5,4505,LOW,82.3,22.13,46.2,MEDIUM,1,0,0,0,0,Echo chamber risk: Session vocabulary heavily concentrated in one community.
+session_079,3.02,13.3,MEDIUM,15.38,16.7,26.7,5335,MEDIUM,51.67,53.56,52.8,HIGH,0,0,0,0,0,"Low risk: Session shows balanced, diverse content consumption."
+session_080,3.14,30.0,HIGH,11.75,6.7,22.8,4553,LOW,54.55,11.93,28.98,LOW,1,0,0,0,0,Echo chamber risk: Session vocabulary heavily concentrated in one community.
+session_081,2.28,16.7,MEDIUM,13.83,16.7,23.4,4672,MEDIUM,33.97,35.78,35.06,LOW,0,0,0,0,0,"Low risk: Session shows balanced, diverse content consumption."
+session_082,2.38,20.0,MEDIUM,16.45,23.3,24.5,4909,HIGH,36.36,65.83,54.04,HIGH,0,0,0,0,1,"Low risk: Session shows balanced, diverse content consumption."
+session_083,2.39,16.7,MEDIUM,12.92,6.7,25.7,5133,LOW,36.6,25.34,29.84,LOW,0,0,0,0,0,"Low risk: Session shows balanced, diverse content consumption."
+session_084,2.49,23.3,MEDIUM,13.96,13.3,20.4,4081,LOW,39.0,37.27,37.96,LOW,0,0,0,0,0,"Low risk: Session shows balanced, diverse content consumption."
+session_085,2.17,16.7,LOW,15.5,20.0,23.3,4667,MEDIUM,31.34,54.93,45.49,MEDIUM,0,0,0,0,0,Moderate risk: Mild content concentration detected. Worth monitoring.
+session_086,3.45,33.3,HIGH,16.12,20.0,19.6,3928,MEDIUM,61.96,62.04,62.01,HIGH,1,0,0,0,1,Echo chamber risk: Session vocabulary heavily concentrated in one community.
+session_087,3.45,23.3,HIGH,14.53,10.0,36.1,7218,LOW,61.96,43.81,51.07,MEDIUM,0,0,0,0,0,Moderate risk: Mild content concentration detected. Worth monitoring.
+session_088,2.44,30.0,MEDIUM,13.5,6.7,16.3,3263,LOW,37.8,32.0,34.32,LOW,1,0,0,0,0,Echo chamber risk: Session vocabulary heavily concentrated in one community.
+session_089,4.29,30.0,HIGH,12.45,16.7,27.0,5407,MEDIUM,82.06,19.95,44.79,MEDIUM,1,0,0,0,0,Echo chamber risk: Session vocabulary heavily concentrated in one community.
+session_090,2.02,13.3,LOW,14.16,10.0,24.0,4790,LOW,27.75,39.56,34.84,LOW,0,0,0,0,0,"Low risk: Session shows balanced, diverse content consumption."
+session_091,2.72,20.0,MEDIUM,13.82,13.3,28.9,5789,LOW,44.5,35.67,39.2,MEDIUM,0,0,0,0,0,Moderate risk: Mild content concentration detected. Worth monitoring.
+session_092,2.54,16.7,MEDIUM,14.45,13.3,17.0,3398,LOW,40.19,42.89,41.81,MEDIUM,0,0,0,0,0,Moderate risk: Mild content concentration detected. Worth monitoring.
+session_093,3.02,16.7,MEDIUM,14.2,20.0,25.7,5133,MEDIUM,51.67,40.02,44.68,MEDIUM,0,0,0,0,0,Moderate risk: Mild content concentration detected. Worth monitoring.
+session_094,2.82,23.3,MEDIUM,15.94,20.0,25.9,5187,MEDIUM,46.89,59.98,54.74,HIGH,0,0,0,0,1,"Low risk: Session shows balanced, diverse content consumption."
+session_095,2.29,20.0,MEDIUM,13.35,13.3,19.8,3955,LOW,34.21,30.28,31.85,LOW,0,0,0,0,0,"Low risk: Session shows balanced, diverse content consumption."
+session_096,2.04,13.3,LOW,13.53,13.3,26.3,5263,LOW,28.23,32.34,30.7,LOW,0,0,0,0,0,"Low risk: Session shows balanced, diverse content consumption."
+session_097,2.07,10.0,LOW,13.8,13.3,30.9,6184,LOW,28.95,35.44,32.84,LOW,0,0,0,0,0,"Low risk: Session shows balanced, diverse content consumption."
+session_098,2.79,26.7,MEDIUM,14.56,10.0,25.2,5045,MEDIUM,46.17,44.15,44.96,MEDIUM,0,0,0,0,0,Moderate risk: Mild content concentration detected. Worth monitoring.
+session_099,2.38,13.3,MEDIUM,14.43,6.7,22.3,4456,LOW,36.36,42.66,40.14,MEDIUM,0,0,0,0,0,Moderate risk: Mild content concentration detected. Worth monitoring.
+session_100,2.29,20.0,MEDIUM,13.72,16.7,18.4,3671,MEDIUM,34.21,34.52,34.4,LOW,0,0,0,0,0,"Low risk: Session shows balanced, diverse content consumption."
+session_101,2.21,10.0,LOW,14.86,20.0,24.9,4974,MEDIUM,32.3,47.59,41.47,MEDIUM,0,0,0,0,0,Moderate risk: Mild content concentration detected. Worth monitoring.
+session_102,3.26,20.0,HIGH,14.86,13.3,14.6,2912,MEDIUM,57.42,47.59,51.52,MEDIUM,0,0,0,0,0,Moderate risk: Mild content concentration detected. Worth monitoring.
+session_103,2.29,16.7,MEDIUM,14.61,20.0,18.9,3774,MEDIUM,34.21,44.72,40.52,MEDIUM,0,0,0,0,0,Moderate risk: Mild content concentration detected. Worth monitoring.
+session_104,2.21,13.3,LOW,15.94,16.7,23.5,4696,MEDIUM,32.3,59.98,48.91,MEDIUM,0,0,0,0,1,Moderate risk: Mild content concentration detected. Worth monitoring.
+session_105,2.64,16.7,MEDIUM,13.26,16.7,38.7,7741,MEDIUM,42.58,29.24,34.58,LOW,0,0,0,0,0,"Low risk: Session shows balanced, diverse content consumption."
+session_106,2.75,26.7,MEDIUM,15.66,23.3,27.1,5411,HIGH,45.22,56.77,52.15,HIGH,0,0,0,0,1,"Low risk: Session shows balanced, diverse content consumption."
+session_107,2.03,13.3,LOW,14.08,16.7,20.5,4100,MEDIUM,27.99,38.65,34.39,LOW,0,0,0,0,0,"Low risk: Session shows balanced, diverse content consumption."
+session_108,2.87,23.3,MEDIUM,11.62,6.7,23.4,4683,LOW,48.09,10.44,25.5,LOW,0,0,0,0,0,"Low risk: Session shows balanced, diverse content consumption."
+session_109,4.22,33.3,HIGH,15.43,23.3,30.9,6188,HIGH,80.38,54.13,64.63,HIGH,1,0,1,0,0,Critical: Session shows both echo chamber and high-distress content patterns.
+session_110,2.62,20.0,MEDIUM,16.34,10.0,24.8,4957,HIGH,42.11,64.56,55.58,HIGH,0,0,0,0,1,"Low risk: Session shows balanced, diverse content consumption."
+session_111,2.02,16.7,LOW,13.52,13.3,29.1,5828,LOW,27.75,32.22,30.43,LOW,0,0,0,0,0,"Low risk: Session shows balanced, diverse content consumption."
+session_112,2.46,20.0,MEDIUM,14.32,10.0,20.5,4108,LOW,38.28,41.4,40.15,MEDIUM,0,0,0,0,0,Moderate risk: Mild content concentration detected. Worth monitoring.
+session_113,2.75,23.3,MEDIUM,14.73,23.3,25.9,5171,HIGH,45.22,46.1,45.75,MEDIUM,0,0,0,0,0,Moderate risk: Mild content concentration detected. Worth monitoring.
+session_114,1.73,10.0,LOW,14.55,13.3,20.4,4076,MEDIUM,20.81,44.04,34.75,LOW,0,0,0,0,0,"Low risk: Session shows balanced, diverse content consumption."
+session_115,2.94,26.7,MEDIUM,13.88,16.7,27.7,5549,MEDIUM,49.76,36.35,41.71,MEDIUM,0,0,0,0,0,Moderate risk: Mild content concentration detected. Worth monitoring.
+session_116,4.14,33.3,HIGH,14.14,13.3,25.7,5146,LOW,78.47,39.33,54.99,HIGH,1,0,0,0,0,Echo chamber risk: Session vocabulary heavily concentrated in one community.
+session_117,2.55,23.3,MEDIUM,13.89,10.0,15.3,3057,LOW,40.43,36.47,38.05,LOW,0,0,0,0,0,"Low risk: Session shows balanced, diverse content consumption."
+session_118,3.76,30.0,HIGH,15.9,16.7,21.3,4264,MEDIUM,69.38,59.52,63.46,HIGH,1,0,0,0,1,Echo chamber risk: Session vocabulary heavily concentrated in one community.
+session_119,1.73,10.0,LOW,11.56,6.7,21.7,4334,LOW,20.81,9.75,14.17,LOW,0,0,0,0,0,"Low risk: Session shows balanced, diverse content consumption."
+session_120,1.45,3.3,LOW,12.57,6.7,24.3,4860,LOW,14.11,21.33,18.44,LOW,0,0,0,0,0,"Low risk: Session shows balanced, diverse content consumption."
+session_121,1.77,6.7,LOW,11.89,13.3,24.9,4978,LOW,21.77,13.53,16.83,LOW,0,0,0,0,0,"Low risk: Session shows balanced, diverse content consumption."
+session_122,2.82,20.0,MEDIUM,14.65,16.7,21.3,4260,MEDIUM,46.89,45.18,45.86,MEDIUM,0,0,0,0,0,Moderate risk: Mild content concentration detected. Worth monitoring.
+session_123,2.02,6.7,LOW,15.46,16.7,28.2,5632,MEDIUM,27.75,54.47,43.78,MEDIUM,0,0,0,0,0,Moderate risk: Mild content concentration detected. Worth monitoring.
+session_124,1.83,3.3,LOW,14.17,10.0,22.3,4465,LOW,23.21,39.68,33.09,LOW,0,0,0,0,0,"Low risk: Session shows balanced, diverse content consumption."
+session_125,2.31,6.7,MEDIUM,15.75,16.7,22.8,4568,MEDIUM,34.69,57.8,48.56,MEDIUM,0,0,0,0,1,Moderate risk: Mild content concentration detected. Worth monitoring.
+session_126,2.07,16.7,LOW,13.75,10.0,20.5,4109,LOW,28.95,34.86,32.5,LOW,0,0,0,0,0,"Low risk: Session shows balanced, diverse content consumption."
+session_127,1.61,6.7,LOW,14.11,13.3,16.3,3264,LOW,17.94,38.99,30.57,LOW,0,0,0,0,0,"Low risk: Session shows balanced, diverse content consumption."
+session_128,2.0,6.7,LOW,13.35,6.7,28.8,5770,LOW,27.27,30.28,29.08,LOW,0,0,0,0,0,"Low risk: Session shows balanced, diverse content consumption."
+session_129,2.1,10.0,LOW,15.45,13.3,19.0,3796,MEDIUM,29.67,54.36,44.48,MEDIUM,0,0,0,0,0,Moderate risk: Mild content concentration detected. Worth monitoring.
+session_130,2.94,20.0,MEDIUM,14.48,16.7,23.9,4786,MEDIUM,49.76,43.23,45.84,MEDIUM,0,0,0,0,0,Moderate risk: Mild content concentration detected. Worth monitoring.
+session_131,1.64,10.0,LOW,15.48,13.3,29.8,5959,MEDIUM,18.66,54.7,40.28,MEDIUM,0,0,0,0,0,Moderate risk: Mild content concentration detected. Worth monitoring.
+session_132,2.22,6.7,LOW,14.96,6.7,18.6,3710,MEDIUM,32.54,48.74,42.26,MEDIUM,0,0,0,0,0,Moderate risk: Mild content concentration detected. Worth monitoring.
+session_133,1.73,10.0,LOW,10.97,3.3,23.6,4725,LOW,20.81,2.98,10.11,LOW,0,0,0,0,0,"Low risk: Session shows balanced, diverse content consumption."
+session_134,1.36,0.0,LOW,12.5,10.0,17.6,3523,LOW,11.96,20.53,17.1,LOW,0,0,0,0,0,"Low risk: Session shows balanced, diverse content consumption."
+session_135,1.59,13.3,LOW,17.45,16.7,20.4,4073,HIGH,17.46,77.29,53.36,HIGH,0,0,0,0,1,"Low risk: Session shows balanced, diverse content consumption."
+session_136,3.17,16.7,HIGH,17.18,13.3,25.7,5145,HIGH,55.26,74.2,66.62,HIGH,0,0,1,0,1,Critical: Session shows both echo chamber and high-distress content patterns.
+session_137,1.49,6.7,LOW,14.8,13.3,18.2,3641,MEDIUM,15.07,46.9,34.17,LOW,0,0,0,0,0,"Low risk: Session shows balanced, diverse content consumption."
+session_138,1.76,3.3,LOW,13.43,13.3,20.8,4154,LOW,21.53,31.19,27.33,LOW,0,0,0,0,0,"Low risk: Session shows balanced, diverse content consumption."
+session_139,2.84,13.3,MEDIUM,12.36,23.3,19.6,3928,HIGH,47.37,18.92,30.3,LOW,0,0,0,0,0,"Low risk: Session shows balanced, diverse content consumption."
+session_140,0.86,0.0,LOW,13.24,10.0,21.3,4261,LOW,0.0,29.01,17.41,LOW,0,0,0,0,0,"Low risk: Session shows balanced, diverse content consumption."
+session_141,1.53,10.0,LOW,12.86,13.3,18.9,3772,LOW,16.03,24.66,21.21,LOW,0,0,0,0,0,"Low risk: Session shows balanced, diverse content consumption."
+session_142,1.37,3.3,LOW,15.82,30.0,21.7,4346,HIGH,12.2,58.6,40.04,MEDIUM,0,1,0,0,1,Doom scroll risk: High proportion of distressing content in this session.
+session_143,2.18,13.3,LOW,14.0,13.3,22.4,4480,LOW,31.58,37.73,35.27,LOW,0,0,0,0,0,"Low risk: Session shows balanced, diverse content consumption."
+session_144,1.83,10.0,LOW,15.23,16.7,27.2,5437,MEDIUM,23.21,51.83,40.38,MEDIUM,0,0,0,0,0,Moderate risk: Mild content concentration detected. Worth monitoring.
+session_145,1.83,10.0,LOW,14.12,20.0,15.4,3090,MEDIUM,23.21,39.11,32.75,LOW,0,0,0,0,0,"Low risk: Session shows balanced, diverse content consumption."
+session_146,1.48,6.7,LOW,16.16,26.7,25.4,5080,HIGH,14.83,62.5,43.43,MEDIUM,0,0,0,0,1,Moderate risk: Mild content concentration detected. Worth monitoring.
+session_147,3.09,23.3,MEDIUM,19.43,26.7,24.0,4797,HIGH,53.35,100.0,81.34,HIGH,0,0,0,0,1,"Low risk: Session shows balanced, diverse content consumption."
+session_148,1.25,3.3,LOW,12.63,16.7,17.7,3546,MEDIUM,9.33,22.02,16.94,LOW,0,0,0,0,0,"Low risk: Session shows balanced, diverse content consumption."
+session_149,2.52,20.0,MEDIUM,12.6,3.3,23.0,4609,LOW,39.71,21.67,28.89,LOW,0,0,0,0,0,"Low risk: Session shows balanced, diverse content consumption."
+session_150,1.31,3.3,LOW,14.35,16.7,15.9,3180,MEDIUM,10.77,41.74,29.35,LOW,0,0,0,0,0,"Low risk: Session shows balanced, diverse content consumption."
+session_151,1.72,3.3,LOW,14.9,13.3,27.4,5470,MEDIUM,20.57,48.05,37.06,LOW,0,0,0,0,0,"Low risk: Session shows balanced, diverse content consumption."
+session_152,1.69,10.0,LOW,14.21,16.7,21.3,4264,MEDIUM,19.86,40.14,32.03,LOW,0,0,0,0,0,"Low risk: Session shows balanced, diverse content consumption."
+session_153,1.73,6.7,LOW,16.53,20.0,24.6,4913,HIGH,20.81,66.74,48.37,MEDIUM,0,0,0,0,1,Moderate risk: Mild content concentration detected. Worth monitoring.
+session_154,1.63,10.0,LOW,16.53,16.7,26.5,5304,HIGH,18.42,66.74,47.41,MEDIUM,0,0,0,0,1,Moderate risk: Mild content concentration detected. Worth monitoring.
+session_155,2.45,16.7,MEDIUM,14.02,13.3,24.8,4958,LOW,38.04,37.96,37.99,LOW,0,0,0,0,0,"Low risk: Session shows balanced, diverse content consumption."
+session_156,2.38,10.0,MEDIUM,14.17,20.0,25.9,5175,MEDIUM,36.36,39.68,38.35,LOW,0,0,0,0,0,"Low risk: Session shows balanced, diverse content consumption."
+session_157,1.79,0.0,LOW,13.1,10.0,15.8,3169,LOW,22.25,27.41,25.35,LOW,0,0,0,0,0,"Low risk: Session shows balanced, diverse content consumption."
+session_158,2.45,10.0,MEDIUM,12.34,0.0,23.2,4641,LOW,38.04,18.69,26.43,LOW,0,0,0,0,0,"Low risk: Session shows balanced, diverse content consumption."
+session_159,1.94,6.7,LOW,15.88,23.3,24.0,4808,HIGH,25.84,59.29,45.91,MEDIUM,0,0,0,0,1,Moderate risk: Mild content concentration detected. Worth monitoring.
+session_160,1.49,6.7,LOW,15.55,16.7,24.2,4849,MEDIUM,15.07,55.5,39.33,MEDIUM,0,0,0,0,1,Moderate risk: Mild content concentration detected. Worth monitoring.
+session_161,0.93,6.7,LOW,14.55,20.0,28.5,5705,MEDIUM,1.67,44.04,27.09,LOW,0,0,0,0,0,"Low risk: Session shows balanced, diverse content consumption."
+session_162,2.05,13.3,LOW,13.8,3.3,18.2,3643,LOW,28.47,35.44,32.65,LOW,0,0,0,0,0,"Low risk: Session shows balanced, diverse content consumption."
+session_163,1.68,6.7,LOW,15.45,13.3,23.5,4704,MEDIUM,19.62,54.36,40.46,MEDIUM,0,0,0,0,0,Moderate risk: Mild content concentration detected. Worth monitoring.
+session_164,2.34,16.7,MEDIUM,13.62,16.7,22.7,4540,MEDIUM,35.41,33.37,34.19,LOW,0,0,0,0,0,"Low risk: Session shows balanced, diverse content consumption."
+session_165,2.21,13.3,LOW,10.73,6.7,23.3,4663,LOW,32.3,0.23,13.06,LOW,0,0,0,0,0,"Low risk: Session shows balanced, diverse content consumption."
+session_166,1.48,3.3,LOW,14.74,13.3,16.9,3387,MEDIUM,14.83,46.22,33.66,LOW,0,0,0,0,0,"Low risk: Session shows balanced, diverse content consumption."
+session_167,1.04,0.0,LOW,11.24,10.0,19.8,3970,LOW,4.31,6.08,5.37,LOW,0,0,0,0,0,"Low risk: Session shows balanced, diverse content consumption."
+session_168,2.51,23.3,MEDIUM,16.76,26.7,19.2,3847,HIGH,39.47,69.38,57.42,HIGH,0,0,0,0,1,"Low risk: Session shows balanced, diverse content consumption."
+session_169,2.17,13.3,LOW,12.58,3.3,19.3,3862,LOW,31.34,21.44,25.4,LOW,0,0,0,0,0,"Low risk: Session shows balanced, diverse content consumption."
+session_170,2.83,16.7,MEDIUM,16.04,23.3,21.3,4252,HIGH,47.13,61.12,55.52,HIGH,0,0,0,0,1,"Low risk: Session shows balanced, diverse content consumption."
+session_171,2.28,20.0,MEDIUM,13.52,13.3,20.1,4027,LOW,33.97,32.22,32.92,LOW,0,0,0,0,0,"Low risk: Session shows balanced, diverse content consumption."
+session_172,1.67,6.7,LOW,12.0,3.3,28.3,5656,LOW,19.38,14.79,16.63,LOW,0,0,0,0,0,"Low risk: Session shows balanced, diverse content consumption."
+session_173,1.45,6.7,LOW,14.5,16.7,21.6,4323,MEDIUM,14.11,43.46,31.72,LOW,0,0,0,0,0,"Low risk: Session shows balanced, diverse content consumption."
+session_174,1.92,13.3,LOW,11.43,6.7,19.8,3961,LOW,25.36,8.26,15.1,LOW,0,0,0,0,0,"Low risk: Session shows balanced, diverse content consumption."
+session_175,1.87,10.0,LOW,16.33,16.7,23.5,4697,HIGH,24.16,64.45,48.33,MEDIUM,0,0,0,0,1,Moderate risk: Mild content concentration detected. Worth monitoring.
+session_176,1.72,13.3,LOW,12.6,3.3,24.6,4922,LOW,20.57,21.67,21.23,LOW,0,0,0,0,0,"Low risk: Session shows balanced, diverse content consumption."
+session_177,1.62,10.0,LOW,12.61,6.7,16.5,3302,LOW,18.18,21.79,20.35,LOW,0,0,0,0,0,"Low risk: Session shows balanced, diverse content consumption."
+session_178,2.42,16.7,MEDIUM,13.8,6.7,27.2,5432,LOW,37.32,35.44,36.19,LOW,0,0,0,0,0,"Low risk: Session shows balanced, diverse content consumption."
+session_179,1.71,10.0,LOW,15.5,13.3,19.1,3820,MEDIUM,20.33,54.93,41.09,MEDIUM,0,0,0,0,0,Moderate risk: Mild content concentration detected. Worth monitoring.
+session_180,1.81,13.3,LOW,16.33,13.3,25.1,5017,HIGH,22.73,64.45,47.76,MEDIUM,0,0,0,0,1,Moderate risk: Mild content concentration detected. Worth monitoring.
+session_181,1.39,6.7,LOW,15.87,13.3,25.0,4998,MEDIUM,12.68,59.17,40.57,MEDIUM,0,0,0,0,1,Moderate risk: Mild content concentration detected. Worth monitoring.
+session_182,2.56,10.0,MEDIUM,14.52,13.3,20.0,4002,LOW,40.67,43.69,42.48,MEDIUM,0,0,0,0,0,Moderate risk: Mild content concentration detected. Worth monitoring.
+session_183,2.21,23.3,LOW,14.1,10.0,26.4,5288,LOW,32.3,38.88,36.25,LOW,0,0,0,0,0,"Low risk: Session shows balanced, diverse content consumption."
+session_184,1.48,6.7,LOW,16.72,23.3,26.9,5387,HIGH,14.83,68.92,47.28,MEDIUM,0,0,0,0,1,Moderate risk: Mild content concentration detected. Worth monitoring.
+session_185,1.37,3.3,LOW,14.9,20.0,25.2,5043,MEDIUM,12.2,48.05,33.71,LOW,0,0,0,0,0,"Low risk: Session shows balanced, diverse content consumption."
+session_186,1.93,13.3,LOW,16.84,20.0,22.2,4441,HIGH,25.6,70.3,52.42,HIGH,0,0,0,0,1,"Low risk: Session shows balanced, diverse content consumption."
+session_187,1.54,10.0,LOW,18.07,23.3,28.4,5671,HIGH,16.27,84.4,57.15,HIGH,0,0,0,0,1,"Low risk: Session shows balanced, diverse content consumption."
+session_188,2.95,13.3,MEDIUM,12.59,10.0,22.3,4456,LOW,50.0,21.56,32.94,LOW,0,0,0,0,0,"Low risk: Session shows balanced, diverse content consumption."
+session_189,1.48,10.0,LOW,13.7,10.0,19.9,3971,LOW,14.83,34.29,26.51,LOW,0,0,0,0,0,"Low risk: Session shows balanced, diverse content consumption."
+session_190,2.36,16.7,MEDIUM,16.21,20.0,25.0,5001,HIGH,35.89,63.07,52.2,HIGH,0,0,0,0,1,"Low risk: Session shows balanced, diverse content consumption."
+session_191,1.7,13.3,LOW,14.72,16.7,19.5,3891,MEDIUM,20.1,45.99,35.63,LOW,0,0,0,0,0,"Low risk: Session shows balanced, diverse content consumption."
+session_192,1.76,3.3,LOW,14.59,13.3,24.1,4829,MEDIUM,21.53,44.5,35.31,LOW,0,0,0,0,0,"Low risk: Session shows balanced, diverse content consumption."
+session_193,1.42,6.7,LOW,13.63,13.3,18.5,3703,LOW,13.4,33.49,25.45,LOW,0,0,0,0,0,"Low risk: Session shows balanced, diverse content consumption."
+session_194,1.2,6.7,LOW,15.77,13.3,26.3,5268,MEDIUM,8.13,58.03,38.07,LOW,0,0,0,0,1,"Low risk: Session shows balanced, diverse content consumption."
+session_195,1.87,13.3,LOW,13.72,10.0,20.7,4133,LOW,24.16,34.52,30.38,LOW,0,0,0,0,0,"Low risk: Session shows balanced, diverse content consumption."
+session_196,1.69,6.7,LOW,16.56,23.3,20.1,4011,HIGH,19.86,67.09,48.2,MEDIUM,0,0,0,0,1,Moderate risk: Mild content concentration detected. Worth monitoring.
+session_197,2.35,16.7,MEDIUM,15.24,13.3,18.3,3654,MEDIUM,35.65,51.95,45.43,MEDIUM,0,0,0,0,0,Moderate risk: Mild content concentration detected. Worth monitoring.
